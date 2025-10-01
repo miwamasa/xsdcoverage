@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns:RootDocument xmlns:ns="http://example.com/MySchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/MySchema extended_schema.xsd" DocumentStatus="Completed" Version="1.0">
+  <ns:Body Status="Completed">
+    <ns:Item Status="Completed" Priority="SampleValue" ItemID="ID_6157" Quantity="42">
+      <ns:Details Type="SampleValue">
+        <ns:Note>SampleValue</ns:Note>
+        <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+      </ns:Details>
+      <ns:Description>SampleValue</ns:Description>
+      <ns:Name>Sample_Name</ns:Name>
+      <ns:SubItem Quantity="42" Status="Completed" ItemID="ID_6157" Priority="SampleValue">
+        <ns:Name>Sample_Name</ns:Name>
+        <ns:SubItem ItemID="ID_6157" Priority="SampleValue" Status="Completed" Quantity="42">
+          <ns:Description>SampleValue</ns:Description>
+          <ns:Name>Sample_Name</ns:Name>
+          <ns:SubItem ItemID="ID_6157" Priority="SampleValue" Status="Completed" Quantity="42">
+            <ns:Name>Sample_Name</ns:Name>
+            <ns:SubItem Status="Completed" Quantity="42" ItemID="ID_6157" Priority="SampleValue">
+              <ns:Name>Sample_Name</ns:Name>
+              <ns:Details Type="SampleValue">
+                <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+                <ns:Note>SampleValue</ns:Note>
+              </ns:Details>
+              <ns:Description>SampleValue</ns:Description>
+              <ns:SubItem Status="Completed" Quantity="42" ItemID="ID_6157" Priority="SampleValue">
+                <ns:Description>SampleValue</ns:Description>
+                <ns:Details Type="SampleValue">
+                  <ns:Note>SampleValue</ns:Note>
+                  <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+                </ns:Details>
+                <ns:SubItem Status="Completed" Quantity="42" Priority="SampleValue" ItemID="ID_6157">
+                  <ns:Description>SampleValue</ns:Description>
+                  <ns:Name>Sample_Name</ns:Name>
+                  <ns:SubItem ItemID="ID_6157" Priority="SampleValue" Quantity="42" Status="Completed">
+                    <ns:Details Type="SampleValue">
+                      <ns:Tag>SampleValue</ns:Tag>
+                      <ns:Note>SampleValue</ns:Note>
+                    </ns:Details>
+                    <ns:SubItem Quantity="42" Priority="SampleValue" Status="Completed" ItemID="ID_6157">
+                      <ns:SubItem>SampleValue</ns:SubItem>
+                      <ns:Name>Sample_Name</ns:Name>
+                      <ns:Details>SampleValue</ns:Details>
+                      <ns:Description>SampleValue</ns:Description>
+                    </ns:SubItem>
+                    <ns:Name>Sample_Name</ns:Name>
+                    <ns:Description>SampleValue</ns:Description>
+                  </ns:SubItem>
+                  <ns:Details Type="SampleValue">
+                    <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+                    <ns:Note>SampleValue</ns:Note>
+                  </ns:Details>
+                </ns:SubItem>
+                <ns:Name>Sample_Name</ns:Name>
+              </ns:SubItem>
+            </ns:SubItem>
+            <ns:Details Type="SampleValue">
+              <ns:Note>SampleValue</ns:Note>
+              <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+            </ns:Details>
+            <ns:Description>SampleValue</ns:Description>
+          </ns:SubItem>
+          <ns:Details Type="SampleValue">
+            <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+            <ns:Note>SampleValue</ns:Note>
+          </ns:Details>
+        </ns:SubItem>
+        <ns:Description>SampleValue</ns:Description>
+        <ns:Details Type="SampleValue">
+          <ns:Note>SampleValue</ns:Note>
+          <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+        </ns:Details>
+      </ns:SubItem>
+    </ns:Item>
+    <ns:Category CategoryID="ID_4948" Status="Completed">
+      <ns:Description>SampleValue</ns:Description>
+      <ns:Item Status="Completed" Priority="SampleValue" ItemID="ID_6157" Quantity="42">
+        <ns:SubItem Status="Completed" Quantity="42" Priority="SampleValue" ItemID="ID_6157">
+          <ns:Description>SampleValue</ns:Description>
+          <ns:SubItem Quantity="42" Status="Completed" Priority="SampleValue" ItemID="ID_6157">
+            <ns:Description>SampleValue</ns:Description>
+            <ns:Details Type="SampleValue">
+              <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+              <ns:Note>SampleValue</ns:Note>
+            </ns:Details>
+            <ns:SubItem Quantity="42" Priority="SampleValue" Status="Completed" ItemID="ID_6157">
+              <ns:Details Type="SampleValue">
+                <ns:Note>SampleValue</ns:Note>
+                <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+              </ns:Details>
+              <ns:Name>Sample_Name</ns:Name>
+              <ns:SubItem ItemID="ID_6157" Priority="SampleValue" Status="Completed" Quantity="42">
+                <ns:Description>SampleValue</ns:Description>
+                <ns:Name>Sample_Name</ns:Name>
+                <ns:SubItem Quantity="42" Status="Completed" ItemID="ID_6157" Priority="SampleValue">
+                  <ns:SubItem Priority="SampleValue" Status="Completed" ItemID="ID_6157" Quantity="42">
+                    <ns:Details Type="SampleValue">
+                      <ns:Note>SampleValue</ns:Note>
+                      <ns:Tag>SampleValue</ns:Tag>
+                    </ns:Details>
+                    <ns:Description>SampleValue</ns:Description>
+                    <ns:Name>Sample_Name</ns:Name>
+                    <ns:SubItem Status="Completed" ItemID="ID_6157" Priority="SampleValue" Quantity="42">
+                      <ns:Name>Sample_Name</ns:Name>
+                      <ns:SubItem>SampleValue</ns:SubItem>
+                      <ns:Description>SampleValue</ns:Description>
+                      <ns:Details>SampleValue</ns:Details>
+                    </ns:SubItem>
+                  </ns:SubItem>
+                  <ns:Description>SampleValue</ns:Description>
+                  <ns:Details Type="SampleValue">
+                    <ns:Note>SampleValue</ns:Note>
+                    <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+                  </ns:Details>
+                  <ns:Name>Sample_Name</ns:Name>
+                </ns:SubItem>
+                <ns:Details Type="SampleValue">
+                  <ns:Note>SampleValue</ns:Note>
+                  <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+                </ns:Details>
+              </ns:SubItem>
+              <ns:Description>SampleValue</ns:Description>
+            </ns:SubItem>
+            <ns:Name>Sample_Name</ns:Name>
+          </ns:SubItem>
+          <ns:Name>Sample_Name</ns:Name>
+          <ns:Details Type="SampleValue">
+            <ns:Note>SampleValue</ns:Note>
+            <ns:Tag Name="Sample_Name" Value="SampleValue">SampleValue</ns:Tag>
+          </ns:Details>
+        </ns:SubItem>
+        <ns:Details Type="SampleValue">
+          <ns:Note>SampleValue</ns:Note>
+          <ns:Tag Value="SampleValue" Name="Sample_Name">SampleValue</ns:Tag>
+        </ns:Details>
+        <ns:Name>Sample_Name</ns:Name>
+        <ns:Description>SampleValue</ns:Description>
+      </ns:Item>
+      <ns:Name>Sample_Name</ns:Name>
+    </ns:Category>
+  </ns:Body>
+  <ns:Header DocumentID="ID_7711" Status="Completed">
+    <ns:Name>Sample_Name</ns:Name>
+    <ns:Description>SampleValue</ns:Description>
+    <ns:Metadata Version="1.0" ID="ID_1958" CreationDate="2025-01-15">
+      <ns:Author>SampleValue</ns:Author>
+      <ns:Name>Sample_Name</ns:Name>
+    </ns:Metadata>
+  </ns:Header>
+  <ns:Footer Version="1.0">
+    <ns:Timestamp>2025-01-15T10:30:00</ns:Timestamp>
+    <ns:Summary>
+      <ns:Description>SampleValue</ns:Description>
+      <ns:TotalItems>SampleValue</ns:TotalItems>
+    </ns:Summary>
+  </ns:Footer>
+</ns:RootDocument>

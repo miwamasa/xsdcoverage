@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:RootDocument xmlns:ns0="http://example.com/MySchema" DocumentStatus="DocumentStatus_value">
+  <ns0:Header DocumentID="DocumentID_value">
+    <ns0:Name>sample_text</ns0:Name>
+    <ns0:Metadata ID="ID_value" CreationDate="2024-01-01">
+      <ns0:Name>sample_text</ns0:Name>
+      <ns0:Author>sample_text</ns0:Author>
+    </ns0:Metadata>
+  </ns0:Header>
+  <ns0:Body>
+    <ns0:Category CategoryID="CategoryID_value">
+      <ns0:Name>sample_text</ns0:Name>
+      <ns0:Description>sample_text</ns0:Description>
+      <ns0:Item ItemID="ItemID_value">
+        <ns0:Name>sample_text</ns0:Name>
+      </ns0:Item>
+    </ns0:Category>
+  </ns0:Body>
+</ns0:RootDocument>

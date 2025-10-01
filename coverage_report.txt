@@ -3,258 +3,282 @@ XSDカバレッジレポート（階層構造考慮版）
 ================================================================================
 
 【要素カバレッジ】
-  XSDで定義された要素パス数: 907
-  ├─ XMLで使用されている数: 907
-  └─ XMLで未使用の数: 0
+  XSDで定義された要素パス数: 116
+  ├─ XMLで使用されている数: 92
+  └─ XMLで未使用の数: 24
   
-  XMLに存在する要素パス総数: 907
-  ├─ XSDで定義済み: 907
+  XMLに存在する要素パス総数: 92
+  ├─ XSDで定義済み: 92
   └─ XSDで未定義: 0
   
-  カバレッジ率: 100.00%
-  （定義された907個のうち907個が使用されている）
+  カバレッジ率: 79.31%
+  （定義された116個のうち92個が使用されている）
 
 【属性カバレッジ】
-  XSDで定義された属性パス数: 2584
-  ├─ XMLで使用されている数: 2577
-  └─ XMLで未使用の数: 7
+  XSDで定義された属性パス数: 120
+  ├─ XMLで使用されている数: 106
+  └─ XMLで未使用の数: 14
   
-  XMLに存在する属性パス総数: 2577
-  ├─ XSDで定義済み: 2577
+  XMLに存在する属性パス総数: 106
+  ├─ XSDで定義済み: 106
   └─ XSDで未定義: 0
   
-  カバレッジ率: 99.73%
-  （定義された2584個のうち2577個が使用されている）
+  カバレッジ率: 88.33%
+  （定義された120個のうち106個が使用されている）
 
 【総合カバレッジ】
-  XSDで定義された総パス数: 3491
-  ├─ XMLで使用されている数: 3484
-  └─ XMLで未使用の数: 7
+  XSDで定義された総パス数: 236
+  ├─ XMLで使用されている数: 198
+  └─ XMLで未使用の数: 38
   
-  XMLに存在する総パス数: 3484
-  ├─ XSDで定義済み: 3484
+  XMLに存在する総パス数: 198
+  ├─ XSDで定義済み: 198
   └─ XSDで未定義: 0
   
-  カバレッジ率: 99.80%
-  （定義された3491個のうち3484個が使用されている）
+  カバレッジ率: 83.90%
+  （定義された236個のうち198個が使用されている）
+
+【未使用の要素パス】
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
 
 【未使用の属性パス】
-  - /Main/Product/Composition/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/Composition/ProductPart/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/Composition/ProductPart/ProductPart/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/Composition/ProductPart/ProductPart/ProductPart/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/Composition/ProductPart/ProductPart/ProductPart/ProductPart/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/Composition/ProductPart/ProductPart/ProductPart/ProductPart/ProductPart/ProductPart/ProductID/OtherNames@type
-  - /Main/Product/ProductID/OtherNames@type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
 
 【使用されている要素パス一覧】
-  総数: 907個
+  総数: 92個
 
-  ✓ /Main
-  ✓ /Main/BusinessInfo
-  ✓ /Main/BusinessInfo/Attachment
-  ✓ /Main/BusinessInfo/Request
-  ✓ /Main/BusinessInfo/Request/Contact
-  ✓ /Main/BusinessInfo/Request/RequestCompany
-  ✓ /Main/BusinessInfo/Request/RequestCompany/UniqueID
-  ✓ /Main/BusinessInfo/Request/RequestContent
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforCompliance
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforComposition
-  ✓ /Main/BusinessInfo/Request/RequestContent/Include
-  ✓ /Main/BusinessInfo/Request/RequestContent/Include/Sectional
-  ✓ /Main/BusinessInfo/Request/RequestContent/MaterialClassList
-  ✓ /Main/BusinessInfo/Response
-  ✓ /Main/BusinessInfo/Response/Authorizer
-  ✓ /Main/BusinessInfo/Response/Contact
-  ✓ /Main/BusinessInfo/Response/SupplyCompany
-  ✓ /Main/BusinessInfo/Response/SupplyCompany/UniqueID
-  ✓ /Main/Include
-  ✓ /Main/Include/Sectional
-  ✓ /Main/Product
-  ✓ /Main/Product/Attachment
-  ✓ /Main/Product/Compliance
-  ✓ /Main/Product/Compliance/DeclarableSubstanceList
-  ✓ /Main/Product/Compliance/DsDsg
-  ✓ /Main/Product/Compliance/DsDsg/ComplianceThreshold
-  ✓ /Main/Product/Compliance/DsDsg/DsDsgID
-  ✓ /Main/Product/Compliance/DsDsg/Exemptions
-  ✓ /Main/Product/Compliance/DsDsg/Exemptions/Exemption
-  ✓ /Main/Product/Compliance/DsDsg/Exemptions/UniqueID
-  ✓ /Main/Product/Compliance/DsDsg/Mass
-  ✓ /Main/Product/Compliance/DsDsg/MassPercent
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/Attachment
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/CountryOfManufacture
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/CountryOfManufacture/CountryInformation
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/Identifier
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/Identifier/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/Identifier/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/CountryOfManufacture
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/CountryOfManufacture/CountryInformation
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/Identifier
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/Identifier/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/Identifier/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/ProductCategory
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/ProductCategory/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/ProductCategory/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/SafeUse
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/SafeUse/SafeUseID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/SafeUse/SafeUseID/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/IntermediateComplexObject/SafeUse/SafeUseID/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialClassID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialClassID/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialClassID/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialProperty
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialProperty/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/MaterialProperty/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/ProductCategory
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/ProductCategory/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/ProductCategory/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/SafeUse
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/SafeUse/SafeUseID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/SafeUse/SafeUseID/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/SafeUse/SafeUseID/ListID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/UseDescriptor
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/UseDescriptor/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/ProductPartInformation/UseDescriptor/ListID
-  ✓ /Main/Product/Compliance/DsDsg/SafeUse
-  ✓ /Main/Product/Compliance/DsDsg/SafeUse/SafeUseID
-  ✓ /Main/Product/Compliance/DsDsg/SafeUse/SafeUseID/EntryID
-  ✓ /Main/Product/Compliance/DsDsg/SafeUse/SafeUseID/ListID
-  ✓ /Main/Product/Composition
-  ✓ /Main/Product/Composition/DeclarableSubstanceList
-  ✓ /Main/Product/Composition/Material
-  ✓ /Main/Product/Composition/Material/Attachment
-  ✓ /Main/Product/Composition/Material/Mass
-  ✓ /Main/Product/Composition/Material/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecyclabilityRate
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecyclabilityRate/Attachment
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecyclabilityRate/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PostConsumerRecycledContent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PostConsumerRecycledContent/Attachment
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PostConsumerRecycledContent/Mass
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PostConsumerRecycledContent/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PreConsumerRecycledContent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PreConsumerRecycledContent/Attachment
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PreConsumerRecycledContent/Mass
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/PreConsumerRecycledContent/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/TotalRecycledContent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/TotalRecycledContent/Attachment
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/TotalRecycledContent/Mass
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RecycledContentInformation/TotalRecycledContent/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RenewableContent
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RenewableContent/Attachment
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RenewableContent/Mass
-  ✓ /Main/Product/Composition/Material/MaterialCircularity/RenewableContent/MassPercent
-  ✓ /Main/Product/Composition/Material/MaterialClassID
-  ... 他 807個（詳細は省略）
+  ✓ /RootDocument
+  ✓ /RootDocument/Body
+  ✓ /RootDocument/Body/Category
+  ✓ /RootDocument/Body/Category/Description
+  ✓ /RootDocument/Body/Category/Item
+  ✓ /RootDocument/Body/Category/Item/Description
+  ✓ /RootDocument/Body/Category/Item/Details
+  ✓ /RootDocument/Body/Category/Item/Details/Note
+  ✓ /RootDocument/Body/Category/Item/Details/Tag
+  ✓ /RootDocument/Body/Category/Item/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/Description
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details/Note
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Category/Item/SubItem/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Name
+  ✓ /RootDocument/Body/Item
+  ✓ /RootDocument/Body/Item/Description
+  ✓ /RootDocument/Body/Item/Details
+  ✓ /RootDocument/Body/Item/Details/Note
+  ✓ /RootDocument/Body/Item/Details/Tag
+  ✓ /RootDocument/Body/Item/Name
+  ✓ /RootDocument/Body/Item/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/Details/Note
+  ✓ /RootDocument/Body/Item/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Item/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Footer
+  ✓ /RootDocument/Footer/Summary
+  ✓ /RootDocument/Footer/Summary/Description
+  ✓ /RootDocument/Footer/Summary/TotalItems
+  ✓ /RootDocument/Footer/Timestamp
+  ✓ /RootDocument/Header
+  ✓ /RootDocument/Header/Description
+  ✓ /RootDocument/Header/Metadata
+  ✓ /RootDocument/Header/Metadata/Author
+  ✓ /RootDocument/Header/Metadata/Name
+  ✓ /RootDocument/Header/Name
 
 【使用されている属性パス一覧】
-  総数: 2577個
+  総数: 106個
 
-  ✓ /Main/BusinessInfo/Attachment@data
-  ✓ /Main/BusinessInfo/Attachment@fileDescription
-  ✓ /Main/BusinessInfo/Attachment@fileName
-  ✓ /Main/BusinessInfo/Attachment@fileType
-  ✓ /Main/BusinessInfo/Attachment@fileURL
-  ✓ /Main/BusinessInfo/Attachment@fileZipLocation
-  ✓ /Main/BusinessInfo/Attachment@language
-  ✓ /Main/BusinessInfo/Attachment@otherFileDescription
-  ✓ /Main/BusinessInfo/Request/Contact@city
-  ✓ /Main/BusinessInfo/Request/Contact@cityLocal
-  ✓ /Main/BusinessInfo/Request/Contact@comment
-  ✓ /Main/BusinessInfo/Request/Contact@commentLocal
-  ✓ /Main/BusinessInfo/Request/Contact@country
-  ✓ /Main/BusinessInfo/Request/Contact@division
-  ✓ /Main/BusinessInfo/Request/Contact@divisionLocal
-  ✓ /Main/BusinessInfo/Request/Contact@email
-  ✓ /Main/BusinessInfo/Request/Contact@internalAddress
-  ✓ /Main/BusinessInfo/Request/Contact@name
-  ✓ /Main/BusinessInfo/Request/Contact@nameLocal
-  ✓ /Main/BusinessInfo/Request/Contact@phone
-  ✓ /Main/BusinessInfo/Request/Contact@postalCode
-  ✓ /Main/BusinessInfo/Request/Contact@stateProvince
-  ✓ /Main/BusinessInfo/Request/Contact@stateProvinceLocal
-  ✓ /Main/BusinessInfo/Request/Contact@street
-  ✓ /Main/BusinessInfo/Request/Contact@streetLocal
-  ✓ /Main/BusinessInfo/Request/Contact@title
-  ✓ /Main/BusinessInfo/Request/Contact@titleLocal
-  ✓ /Main/BusinessInfo/Request/RequestCompany/UniqueID@authority
-  ✓ /Main/BusinessInfo/Request/RequestCompany/UniqueID@identity
-  ✓ /Main/BusinessInfo/Request/RequestCompany/UniqueID@version
-  ✓ /Main/BusinessInfo/Request/RequestCompany@name
-  ✓ /Main/BusinessInfo/Request/RequestCompany@nameLocal
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforCompliance@authority
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforCompliance@identity
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforCompliance@version
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforComposition@authority
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforComposition@identity
-  ✓ /Main/BusinessInfo/Request/RequestContent/DSLforComposition@version
-  ✓ /Main/BusinessInfo/Request/RequestContent/Include/Sectional@nameOfSectional
-  ✓ /Main/BusinessInfo/Request/RequestContent/MaterialClassList@authority
-  ✓ /Main/BusinessInfo/Request/RequestContent/MaterialClassList@identity
-  ✓ /Main/BusinessInfo/Request/RequestContent/MaterialClassList@version
-  ✓ /Main/BusinessInfo/Request/RequestContent@comment
-  ✓ /Main/BusinessInfo/Request@comment
-  ✓ /Main/BusinessInfo/Request@date
-  ✓ /Main/BusinessInfo/Request@docID
-  ✓ /Main/BusinessInfo/Request@internalSupplierID
-  ✓ /Main/BusinessInfo/Request@respondByDate
-  ✓ /Main/BusinessInfo/Response/Authorizer@city
-  ✓ /Main/BusinessInfo/Response/Authorizer@cityLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@comment
-  ✓ /Main/BusinessInfo/Response/Authorizer@commentLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@country
-  ✓ /Main/BusinessInfo/Response/Authorizer@division
-  ✓ /Main/BusinessInfo/Response/Authorizer@divisionLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@email
-  ✓ /Main/BusinessInfo/Response/Authorizer@internalAddress
-  ✓ /Main/BusinessInfo/Response/Authorizer@name
-  ✓ /Main/BusinessInfo/Response/Authorizer@nameLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@phone
-  ✓ /Main/BusinessInfo/Response/Authorizer@postalCode
-  ✓ /Main/BusinessInfo/Response/Authorizer@stateProvince
-  ✓ /Main/BusinessInfo/Response/Authorizer@stateProvinceLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@street
-  ✓ /Main/BusinessInfo/Response/Authorizer@streetLocal
-  ✓ /Main/BusinessInfo/Response/Authorizer@title
-  ✓ /Main/BusinessInfo/Response/Authorizer@titleLocal
-  ✓ /Main/BusinessInfo/Response/Contact@city
-  ✓ /Main/BusinessInfo/Response/Contact@cityLocal
-  ✓ /Main/BusinessInfo/Response/Contact@comment
-  ✓ /Main/BusinessInfo/Response/Contact@commentLocal
-  ✓ /Main/BusinessInfo/Response/Contact@country
-  ✓ /Main/BusinessInfo/Response/Contact@division
-  ✓ /Main/BusinessInfo/Response/Contact@divisionLocal
-  ✓ /Main/BusinessInfo/Response/Contact@email
-  ✓ /Main/BusinessInfo/Response/Contact@internalAddress
-  ✓ /Main/BusinessInfo/Response/Contact@name
-  ✓ /Main/BusinessInfo/Response/Contact@nameLocal
-  ✓ /Main/BusinessInfo/Response/Contact@phone
-  ✓ /Main/BusinessInfo/Response/Contact@postalCode
-  ✓ /Main/BusinessInfo/Response/Contact@stateProvince
-  ✓ /Main/BusinessInfo/Response/Contact@stateProvinceLocal
-  ✓ /Main/BusinessInfo/Response/Contact@street
-  ✓ /Main/BusinessInfo/Response/Contact@streetLocal
-  ✓ /Main/BusinessInfo/Response/Contact@title
-  ✓ /Main/BusinessInfo/Response/Contact@titleLocal
-  ✓ /Main/BusinessInfo/Response/SupplyCompany/UniqueID@authority
-  ✓ /Main/BusinessInfo/Response/SupplyCompany/UniqueID@identity
-  ✓ /Main/BusinessInfo/Response/SupplyCompany/UniqueID@version
-  ✓ /Main/BusinessInfo/Response/SupplyCompany@name
-  ✓ /Main/BusinessInfo/Response/SupplyCompany@nameLocal
-  ✓ /Main/BusinessInfo/Response@comment
-  ✓ /Main/BusinessInfo/Response@date
-  ✓ /Main/BusinessInfo/Response@docID
-  ✓ /Main/BusinessInfo@mode
-  ✓ /Main/Include/Sectional@nameOfSectional
-  ✓ /Main/Product/Attachment@data
-  ✓ /Main/Product/Attachment@fileDescription
-  ✓ /Main/Product/Attachment@fileName
-  ✓ /Main/Product/Attachment@fileType
-  ... 他 2477個（詳細は省略）
+  ✓ /RootDocument/Body/Category/Item/Details/Tag@Name
+  ✓ /RootDocument/Body/Category/Item/Details/Tag@Value
+  ✓ /RootDocument/Body/Category/Item/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Category/Item/SubItem/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item/SubItem@ItemID
+  ✓ /RootDocument/Body/Category/Item/SubItem@Priority
+  ✓ /RootDocument/Body/Category/Item/SubItem@Quantity
+  ✓ /RootDocument/Body/Category/Item/SubItem@Status
+  ✓ /RootDocument/Body/Category/Item@ItemID
+  ✓ /RootDocument/Body/Category/Item@Priority
+  ✓ /RootDocument/Body/Category/Item@Quantity
+  ✓ /RootDocument/Body/Category/Item@Status
+  ✓ /RootDocument/Body/Category@CategoryID
+  ✓ /RootDocument/Body/Category@Status
+  ✓ /RootDocument/Body/Item/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem@Quantity
+  ✓ /RootDocument/Body/Item/SubItem@Status
+  ✓ /RootDocument/Body/Item@ItemID
+  ✓ /RootDocument/Body/Item@Priority
+  ✓ /RootDocument/Body/Item@Quantity
+  ✓ /RootDocument/Body/Item@Status
+  ✓ /RootDocument/Body@Status
+  ✓ /RootDocument/Footer@Version
+  ✓ /RootDocument/Header/Metadata@CreationDate
+  ... 他 6個（詳細は省略）
 
 ================================================================================

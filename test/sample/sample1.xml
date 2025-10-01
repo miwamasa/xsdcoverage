@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my:RootDocument 
+    xmlns:my="http://example.com/MySchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://example.com/MySchema extended_schema.xsd"
+    DocumentStatus="InProgress">
+    
+    <my:Header DocumentID="DOC001">
+        <my:Name>Simple Document</my:Name>
+    </my:Header>
+    
+    <my:Body>
+        <my:Item ItemID="ITEM001">
+            <my:Name>First Item</my:Name>
+        </my:Item>
+    </my:Body>
+    
+</my:RootDocument>

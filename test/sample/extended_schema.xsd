@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+    xmlns:my="http://example.com/MySchema"
+    xmlns:ext="http://example.com/ExternalData"
+    targetNamespace="http://example.com/MySchema"
+    elementFormDefault="qualified"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- ステータス型定義 -->
+    <xsd:simpleType name="StatusType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Completed" />
+            <xsd:enumeration value="InProgress" />
+            <xsd:enumeration value="Pending" />
+            <xsd:enumeration value="Unknown" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- 優先度型定義 -->
+    <xsd:simpleType name="PriorityType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="High" />
+            <xsd:enumeration value="Medium" />
+            <xsd:enumeration value="Low" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- ルート要素 -->
+    <xsd:element name="RootDocument" type="my:RootDocumentType" />
+    
+    <!-- ルートドキュメント型 -->
+    <xsd:complexType name="RootDocumentType">
+        <xsd:sequence>
+            <xsd:element name="Header" type="my:HeaderType" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Body" type="my:BodyType" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Footer" type="my:FooterType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="DocumentStatus" type="my:StatusType" use="required" />
+        <xsd:attribute name="Version" type="xsd:string" use="optional" />
+    </xsd:complexType>
+    
+    <!-- ヘッダー型 -->
+    <xsd:complexType name="HeaderType">
+        <xsd:sequence>
+            <!-- ヘッダー内のName要素 -->
+            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Description" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Metadata" type="my:MetadataType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="DocumentID" type="xsd:string" use="required" />
+        <!-- ヘッダーにもStatus属性 -->
+        <xsd:attribute name="Status" type="my:StatusType" use="optional" />
+    </xsd:complexType>
+    
+    <!-- メタデータ型 -->
+    <xsd:complexType name="MetadataType">
+        <xsd:sequence>
+            <!-- メタデータ内のName要素（3つ目の階層でのName） -->
+            <xsd:element name="Name" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Author" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="ID" type="xsd:ID" use="required" />
+        <xsd:attribute name="Version" type="xsd:string" use="optional" />
+        <xsd:attribute name="CreationDate" type="xsd:date" use="required" />
+    </xsd:complexType>
+    
+    <!-- ボディ型 -->
+    <xsd:complexType name="BodyType">
+        <xsd:sequence>
+            <!-- トップレベルのItem要素 -->
+            <xsd:element name="Item" type="my:ItemType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Category" type="my:CategoryType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="Status" type="my:StatusType" use="optional" />
+    </xsd:complexType>
+    
+    <!-- Item型（再帰的に子Itemを持てる） -->
+    <xsd:complexType name="ItemType">
+        <xsd:sequence>
+            <!-- Item内のName要素 -->
+            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Description" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Details" type="my:DetailsType" minOccurs="0" maxOccurs="1"/>
+            <!-- 子Item要素（ネスト構造） -->
+            <xsd:element name="SubItem" type="my:ItemType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="ItemID" type="xsd:string" use="required" />
+        <xsd:attribute name="Quantity" type="xsd:integer" use="optional" />
+        <!-- ItemにもStatus属性 -->
+        <xsd:attribute name="Status" type="my:StatusType" use="optional" />
+        <xsd:attribute name="Priority" type="my:PriorityType" use="optional" />
+    </xsd:complexType>
+    
+    <!-- Details型 -->
+    <xsd:complexType name="DetailsType">
+        <xsd:sequence>
+            <xsd:element name="Note" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="Tag" type="my:TagType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="Type" type="xsd:string" use="optional" />
+    </xsd:complexType>
+    
+    <!-- Tag型 -->
+    <xsd:complexType name="TagType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <!-- Tag要素にもName属性 -->
+                <xsd:attribute name="Name" type="xsd:string" use="optional" />
+                <xsd:attribute name="Value" type="xsd:string" use="optional" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <!-- Category型 -->
+    <xsd:complexType name="CategoryType">
+        <xsd:sequence>
+            <!-- Category内のName要素 -->
+            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Description" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <!-- Category内のItem要素 -->
+            <xsd:element name="Item" type="my:ItemType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="CategoryID" type="xsd:string" use="required" />
+        <xsd:attribute name="Status" type="my:StatusType" use="optional" />
+    </xsd:complexType>
+    
+    <!-- Footer型 -->
+    <xsd:complexType name="FooterType">
+        <xsd:sequence>
+            <xsd:element name="Timestamp" type="xsd:dateTime" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Summary" type="my:SummaryType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="Version" type="xsd:string" use="optional" />
+    </xsd:complexType>
+    
+    <!-- Summary型 -->
+    <xsd:complexType name="SummaryType">
+        <xsd:sequence>
+            <xsd:element name="TotalItems" type="xsd:integer" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Description" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+</xsd:schema>

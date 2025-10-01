@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns:Main xmlns:ns="http://std.iec.ch/iec62474" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://std.iec.ch/iec62474 IEC62474_Schema_X8.21-120240831.xsd" schemaDatabaseVersion="SampleText" charaLocal="SampleText" declarationComplete="true">
+  <ns:Include>
+    <ns:Sectional nameOfSectional="Compliance"/>
+  </ns:Include>
+  <ns:BusinessInfo mode="Distribution">
+    <ns:Request comment="SampleText" date="2025-01-15" docID="SampleText" internalSupplierID="SampleText" respondByDate="2025-01-15">
+      <ns:Contact city="SampleText" cityLocal="SampleText" comment="SampleText" commentLocal="SampleText" country="SampleText" email="SampleText" internalAddress="SampleText" division="SampleText" divisionLocal="SampleText" name="SampleText" nameLocal="SampleText" phone="SampleText" postalCode="SampleText" stateProvince="SampleText" stateProvinceLocal="SampleText" street="SampleText" streetLocal="SampleText" title="SampleText" titleLocal="SampleText"/>
+      <ns:RequestCompany name="SampleText" nameLocal="SampleText">
+        <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+      </ns:RequestCompany>
+      <ns:RequestContent comment="SampleText">
+        <ns:Include>
+          <ns:Sectional nameOfSectional="Composition"/>
+        </ns:Include>
+        <ns:DSLforComposition authority="SampleText" identity="SampleText" version="SampleText"/>
+        <ns:DSLforCompliance authority="SampleText" identity="SampleText" version="SampleText"/>
+        <ns:MaterialClassList authority="SampleText" identity="SampleText" version="SampleText"/>
+      </ns:RequestContent>
+    </ns:Request>
+    <ns:Response comment="SampleText" date="2025-01-15" docID="SampleText">
+      <ns:Authorizer city="SampleText" cityLocal="SampleText" comment="SampleText" commentLocal="SampleText" country="SampleText" email="SampleText" internalAddress="SampleText" division="SampleText" divisionLocal="SampleText" name="SampleText" nameLocal="SampleText" phone="SampleText" postalCode="SampleText" stateProvince="SampleText" stateProvinceLocal="SampleText" street="SampleText" streetLocal="SampleText" title="SampleText" titleLocal="SampleText"/>
+      <ns:Contact city="SampleText" cityLocal="SampleText" comment="SampleText" commentLocal="SampleText" country="SampleText" email="SampleText" internalAddress="SampleText" division="SampleText" divisionLocal="SampleText" name="SampleText" nameLocal="SampleText" phone="SampleText" postalCode="SampleText" stateProvince="SampleText" stateProvinceLocal="SampleText" street="SampleText" streetLocal="SampleText" title="SampleText" titleLocal="SampleText"/>
+      <ns:SupplyCompany name="SampleText" nameLocal="SampleText">
+        <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+      </ns:SupplyCompany>
+    </ns:Response>
+    <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+  </ns:BusinessInfo>
+  <ns:Product unitType="l" productFamilyName="SampleText" isArticle="true" comment="SampleText">
+    <ns:ProductID effectiveDate="2025-01-15" identifier="SampleText" manufacturingSite="SampleText" name="SampleText" requesterIdentifier="SampleText" requesterName="SampleText" version="SampleText">
+      <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+      <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+      <ns:InstanceID authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:ProductCategory>
+        <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+        <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+      </ns:ProductCategory>
+      <ns:Identifier>
+        <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+        <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+      </ns:Identifier>
+      <ns:OtherNames type="brand" otherType="SampleText" name="SampleText"/>
+      <ns:CountryOfManufacture>
+        <ns:CountryInformation countryCode="SampleText"/>
+      </ns:CountryOfManufacture>
+    </ns:ProductID>
+    <ns:Compliance isSCIPComplete="true">
+      <ns:DeclarableSubstanceList authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:DsDsg name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+        <ns:DsDsgID entryIdentity="SampleText" entryDescription="SampleText"/>
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:ComplianceThreshold aboveComplianceThreshold="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+        <ns:Exemptions>
+          <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+        </ns:Exemptions>
+        <ns:SafeUse safeUseInformation="SampleText">
+          <ns:SafeUseID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:SafeUseID>
+        </ns:SafeUse>
+        <ns:ProductPartInformation name="SampleText" numberOfUnits="123.45">
+          <ns:Identifier>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:Identifier>
+          <ns:ProductCategory>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:ProductCategory>
+          <ns:SafeUse safeUseInformation="SampleText">
+            <ns:SafeUseID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SafeUseID>
+          </ns:SafeUse>
+          <ns:MaterialClassID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:MaterialClassID>
+          <ns:MaterialProperty>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:MaterialProperty>
+          <ns:UseDescriptor>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:UseDescriptor>
+          <ns:IntermediateComplexObject name="SampleText" numberOfUnits="123.45">
+            <ns:Identifier>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:Identifier>
+            <ns:ProductCategory>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:ProductCategory>
+            <ns:SafeUse safeUseInformation="SampleText">
+              <ns:SafeUseID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SafeUseID>
+            </ns:SafeUse>
+            <ns:CountryOfManufacture>
+              <ns:CountryInformation countryCode="SampleText"/>
+            </ns:CountryOfManufacture>
+          </ns:IntermediateComplexObject>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+          <ns:CountryOfManufacture>
+            <ns:CountryInformation countryCode="SampleText"/>
+          </ns:CountryOfManufacture>
+        </ns:ProductPartInformation>
+      </ns:DsDsg>
+    </ns:Compliance>
+    <ns:Composition isSCIPComplete="true" isFMD="true">
+      <ns:DeclarableSubstanceList authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:ProductPart numberOfUnits="123.45" isArticle="true" comment="SampleText">
+        <ns:ProductID effectiveDate="2025-01-15" identifier="SampleText" manufacturingSite="SampleText" name="SampleText" requesterIdentifier="SampleText" requesterName="SampleText" version="SampleText">
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:InstanceID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:ProductCategory>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:ProductCategory>
+          <ns:Identifier>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:Identifier>
+          <ns:OtherNames type="model" otherType="SampleText" name="SampleText"/>
+          <ns:CountryOfManufacture>
+            <ns:CountryInformation countryCode="SampleText"/>
+          </ns:CountryOfManufacture>
+        </ns:ProductID>
+        <ns:ProductPart numberOfUnits="123.45" isArticle="true" comment="SampleText">
+          <ns:ProductID effectiveDate="2025-01-15" identifier="SampleText" manufacturingSite="SampleText" name="SampleText" requesterIdentifier="SampleText" requesterName="SampleText" version="SampleText">
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:InstanceID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:ProductCategory>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:ProductCategory>
+            <ns:Identifier>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:Identifier>
+            <ns:OtherNames type="model" otherType="SampleText" name="SampleText"/>
+            <ns:CountryOfManufacture>
+              <ns:CountryInformation countryCode="SampleText"/>
+            </ns:CountryOfManufacture>
+          </ns:ProductID>
+          <ns:ProductPart numberOfUnits="123.45" isArticle="true" comment="SampleText">
+            <ns:ProductID effectiveDate="2025-01-15" identifier="SampleText" manufacturingSite="SampleText" name="SampleText" requesterIdentifier="SampleText" requesterName="SampleText" version="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:InstanceID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:ProductCategory>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:ProductCategory>
+              <ns:Identifier>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:Identifier>
+              <ns:OtherNames type="type" otherType="SampleText" name="SampleText"/>
+              <ns:CountryOfManufacture>
+                <ns:CountryInformation/>
+              </ns:CountryOfManufacture>
+            </ns:ProductID>
+            <ns:ProductPart numberOfUnits="123.45" isArticle="true" comment="SampleText">
+              <ns:ProductID effectiveDate="2025-01-15" identifier="SampleText" manufacturingSite="SampleText" name="SampleText" requesterIdentifier="SampleText" requesterName="SampleText" version="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:InstanceID/>
+                <ns:ProductCategory/>
+                <ns:Identifier/>
+                <ns:OtherNames/>
+                <ns:CountryOfManufacture/>
+              </ns:ProductID>
+              <ns:ProductPart numberOfUnits="123.45" isArticle="true" comment="SampleText">
+                <ns:ProductID/>
+                <ns:ProductPart/>
+                <ns:Material/>
+                <ns:Substance/>
+                <ns:Attachment/>
+                <ns:SafeUse/>
+                <ns:ProductCircularity/>
+              </ns:ProductPart>
+              <ns:Material comment="SampleText" name="SampleText" isArticle="true">
+                <ns:MaterialID/>
+                <ns:MaterialClassID/>
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Substance/>
+                <ns:Attachment/>
+                <ns:MaterialProperty/>
+                <ns:UseDescriptor/>
+                <ns:MaterialCircularity/>
+              </ns:Material>
+              <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+                <ns:SubstanceID/>
+                <ns:DsgID/>
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Exemptions/>
+                <ns:CompositionThreshold/>
+                <ns:SafeUse/>
+              </ns:Substance>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+              <ns:SafeUse safeUseInformation="SampleText">
+                <ns:SafeUseID/>
+              </ns:SafeUse>
+              <ns:ProductCircularity>
+                <ns:AverageRecycledContent/>
+                <ns:AverageRenewableContent/>
+                <ns:AverageReusedContent/>
+                <ns:RecyclabilityRate/>
+              </ns:ProductCircularity>
+            </ns:ProductPart>
+            <ns:Material comment="SampleText" name="SampleText" isArticle="true">
+              <ns:MaterialID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:MaterialID>
+              <ns:MaterialClassID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:MaterialClassID>
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+                <ns:SubstanceID/>
+                <ns:DsgID/>
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Exemptions/>
+                <ns:CompositionThreshold/>
+                <ns:SafeUse/>
+              </ns:Substance>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+              <ns:MaterialProperty>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:MaterialProperty>
+              <ns:UseDescriptor>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:UseDescriptor>
+              <ns:MaterialCircularity>
+                <ns:RecycledContentInformation/>
+                <ns:RenewableContent/>
+                <ns:RecyclabilityRate/>
+              </ns:MaterialCircularity>
+            </ns:Material>
+            <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+              <ns:SubstanceID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SubstanceID>
+              <ns:DsgID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:DsgID>
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Exemptions>
+                <ns:UniqueID/>
+                <ns:Exemption/>
+              </ns:Exemptions>
+              <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+              <ns:SafeUse safeUseInformation="SampleText">
+                <ns:SafeUseID/>
+              </ns:SafeUse>
+            </ns:Substance>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+            <ns:SafeUse safeUseInformation="SampleText">
+              <ns:SafeUseID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SafeUseID>
+            </ns:SafeUse>
+            <ns:ProductCircularity>
+              <ns:AverageRecycledContent description="SampleText">
+                <ns:TotalRecycledContent/>
+                <ns:PreConsumerRecycledContent/>
+                <ns:PostConsumerRecycledContent/>
+              </ns:AverageRecycledContent>
+              <ns:AverageRenewableContent description="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:AverageRenewableContent>
+              <ns:AverageReusedContent description="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:AverageReusedContent>
+              <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:RecyclabilityRate>
+            </ns:ProductCircularity>
+          </ns:ProductPart>
+          <ns:Material comment="SampleText" name="SampleText" isArticle="true">
+            <ns:MaterialID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:MaterialID>
+            <ns:MaterialClassID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:MaterialClassID>
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+              <ns:SubstanceID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SubstanceID>
+              <ns:DsgID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:DsgID>
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Exemptions>
+                <ns:UniqueID/>
+                <ns:Exemption/>
+              </ns:Exemptions>
+              <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+              <ns:SafeUse safeUseInformation="SampleText">
+                <ns:SafeUseID/>
+              </ns:SafeUse>
+            </ns:Substance>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+            <ns:MaterialProperty>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:MaterialProperty>
+            <ns:UseDescriptor>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:UseDescriptor>
+            <ns:MaterialCircularity>
+              <ns:RecycledContentInformation description="SampleText">
+                <ns:TotalRecycledContent/>
+                <ns:PreConsumerRecycledContent/>
+                <ns:PostConsumerRecycledContent/>
+              </ns:RecycledContentInformation>
+              <ns:RenewableContent description="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:RenewableContent>
+              <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:RecyclabilityRate>
+            </ns:MaterialCircularity>
+          </ns:Material>
+          <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+            <ns:SubstanceID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SubstanceID>
+            <ns:DsgID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:DsgID>
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Exemptions>
+              <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+            </ns:Exemptions>
+            <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+            <ns:SafeUse safeUseInformation="SampleText">
+              <ns:SafeUseID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SafeUseID>
+            </ns:SafeUse>
+          </ns:Substance>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+          <ns:SafeUse safeUseInformation="SampleText">
+            <ns:SafeUseID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SafeUseID>
+          </ns:SafeUse>
+          <ns:ProductCircularity>
+            <ns:AverageRecycledContent description="SampleText">
+              <ns:TotalRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:TotalRecycledContent>
+              <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="chemical recycling" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:PreConsumerRecycledContent>
+              <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:PostConsumerRecycledContent>
+            </ns:AverageRecycledContent>
+            <ns:AverageRenewableContent description="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:AverageRenewableContent>
+            <ns:AverageReusedContent description="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:AverageReusedContent>
+            <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:RecyclabilityRate>
+          </ns:ProductCircularity>
+        </ns:ProductPart>
+        <ns:Material comment="SampleText" name="SampleText" isArticle="true">
+          <ns:MaterialID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:MaterialID>
+          <ns:MaterialClassID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:MaterialClassID>
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+            <ns:SubstanceID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SubstanceID>
+            <ns:DsgID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:DsgID>
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Exemptions>
+              <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+            </ns:Exemptions>
+            <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+            <ns:SafeUse safeUseInformation="SampleText">
+              <ns:SafeUseID>
+                <ns:ListID/>
+                <ns:EntryID/>
+              </ns:SafeUseID>
+            </ns:SafeUse>
+          </ns:Substance>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+          <ns:MaterialProperty>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:MaterialProperty>
+          <ns:UseDescriptor>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:UseDescriptor>
+          <ns:MaterialCircularity>
+            <ns:RecycledContentInformation description="SampleText">
+              <ns:TotalRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:TotalRecycledContent>
+              <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:PreConsumerRecycledContent>
+              <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="chemical recycling" otherRecyclingMethod="SampleText">
+                <ns:Mass/>
+                <ns:MassPercent/>
+                <ns:Attachment/>
+              </ns:PostConsumerRecycledContent>
+            </ns:RecycledContentInformation>
+            <ns:RenewableContent description="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Certificate of Compliance" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:RenewableContent>
+            <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:RecyclabilityRate>
+          </ns:MaterialCircularity>
+        </ns:Material>
+        <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+          <ns:SubstanceID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:SubstanceID>
+          <ns:DsgID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:DsgID>
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Exemptions>
+            <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+          </ns:Exemptions>
+          <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+          <ns:SafeUse safeUseInformation="SampleText">
+            <ns:SafeUseID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SafeUseID>
+          </ns:SafeUse>
+        </ns:Substance>
+        <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+        <ns:SafeUse safeUseInformation="SampleText">
+          <ns:SafeUseID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:SafeUseID>
+        </ns:SafeUse>
+        <ns:ProductCircularity>
+          <ns:AverageRecycledContent description="SampleText">
+            <ns:TotalRecycledContent description="SampleText" recyclingMethod="mechanical recycling" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:TotalRecycledContent>
+            <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="mechanical recycling" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Other" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PreConsumerRecycledContent>
+            <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PostConsumerRecycledContent>
+          </ns:AverageRecycledContent>
+          <ns:AverageRenewableContent description="SampleText">
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Other" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:AverageRenewableContent>
+          <ns:AverageReusedContent description="SampleText">
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:AverageReusedContent>
+          <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:RecyclabilityRate>
+        </ns:ProductCircularity>
+      </ns:ProductPart>
+      <ns:Material comment="SampleText" name="SampleText" isArticle="true">
+        <ns:MaterialID>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:MaterialID>
+        <ns:MaterialClassID>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:MaterialClassID>
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+          <ns:SubstanceID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:SubstanceID>
+          <ns:DsgID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:DsgID>
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Exemptions>
+            <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+          </ns:Exemptions>
+          <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+          <ns:SafeUse safeUseInformation="SampleText">
+            <ns:SafeUseID>
+              <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+              <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+            </ns:SafeUseID>
+          </ns:SafeUse>
+        </ns:Substance>
+        <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+        <ns:MaterialProperty>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:MaterialProperty>
+        <ns:UseDescriptor>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:UseDescriptor>
+        <ns:MaterialCircularity>
+          <ns:RecycledContentInformation description="SampleText">
+            <ns:TotalRecycledContent description="SampleText" recyclingMethod="mechanical recycling" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Certificate of Compliance" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:TotalRecycledContent>
+            <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PreConsumerRecycledContent>
+            <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="chemical recycling" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Other" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PostConsumerRecycledContent>
+          </ns:RecycledContentInformation>
+          <ns:RenewableContent description="SampleText">
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:RenewableContent>
+          <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:RecyclabilityRate>
+        </ns:MaterialCircularity>
+      </ns:Material>
+      <ns:Substance name="SampleText" descriptionOfUse="SampleText" comment="SampleText">
+        <ns:SubstanceID>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:SubstanceID>
+        <ns:DsgID>
+          <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+        </ns:DsgID>
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Exemptions>
+          <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+          <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+        </ns:Exemptions>
+        <ns:CompositionThreshold aboveThresholdLevel="true" reportableApplication="SampleText" reportingThreshold="SampleText"/>
+        <ns:SafeUse safeUseInformation="SampleText">
+          <ns:SafeUseID>
+            <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+            <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+          </ns:SafeUseID>
+        </ns:SafeUse>
+      </ns:Substance>
+    </ns:Composition>
+    <ns:MaterialClassDeclaration>
+      <ns:MaterialClassList authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:MaterialClass comment="SampleText" id="SampleText" name="SampleText">
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+        <ns:MaterialCircularity>
+          <ns:RecycledContentInformation description="SampleText">
+            <ns:TotalRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:TotalRecycledContent>
+            <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="chemical recycling" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PreConsumerRecycledContent>
+            <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="other" otherRecyclingMethod="SampleText">
+              <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+              <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+              <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+            </ns:PostConsumerRecycledContent>
+          </ns:RecycledContentInformation>
+          <ns:RenewableContent description="SampleText">
+            <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:RenewableContent>
+          <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+            <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+            <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+          </ns:RecyclabilityRate>
+        </ns:MaterialCircularity>
+      </ns:MaterialClass>
+    </ns:MaterialClassDeclaration>
+    <ns:QueryList>
+      <ns:QueryListID authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:Query response="true" statement="SampleText" numberResponse="123.45" additionalInformation="SampleText" additionalInformationURL="http://example.com">
+        <ns:QueryID entryIdentity="SampleText" entryDescription="SampleText"/>
+      </ns:Query>
+    </ns:QueryList>
+    <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+    <ns:Exemptions>
+      <ns:UniqueID authority="SampleText" identity="SampleText" version="SampleText"/>
+      <ns:Exemption description="SampleText" identity="SampleText" regIndex="SampleText"/>
+    </ns:Exemptions>
+    <ns:SafeUse safeUseInformation="SampleText">
+      <ns:SafeUseID>
+        <ns:ListID authority="SampleText" identity="SampleText" version="SampleText"/>
+        <ns:EntryID entryIdentity="SampleText" entryDescription="SampleText"/>
+      </ns:SafeUseID>
+    </ns:SafeUse>
+    <ns:ProductCircularity>
+      <ns:AverageRecycledContent description="SampleText">
+        <ns:TotalRecycledContent description="SampleText" recyclingMethod="chemical recycling" otherRecyclingMethod="SampleText">
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Disassembly Instructions" otherFileDescription="SampleText" language="SampleText"/>
+        </ns:TotalRecycledContent>
+        <ns:PreConsumerRecycledContent description="SampleText" recyclingMethod="mechanical recycling" otherRecyclingMethod="SampleText">
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Certificate of Compliance" otherFileDescription="SampleText" language="SampleText"/>
+        </ns:PreConsumerRecycledContent>
+        <ns:PostConsumerRecycledContent description="SampleText" recyclingMethod="mechanical recycling" otherRecyclingMethod="SampleText">
+          <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="mg"/>
+          <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+          <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+        </ns:PostConsumerRecycledContent>
+      </ns:AverageRecycledContent>
+      <ns:AverageRenewableContent description="SampleText">
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="g"/>
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Picture" otherFileDescription="SampleText" language="SampleText"/>
+      </ns:AverageRenewableContent>
+      <ns:AverageReusedContent description="SampleText">
+        <ns:Mass mass="123.45" massRangeMin="123.45" massRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45" unitOfMeasure="kg"/>
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Test Report" otherFileDescription="SampleText" language="SampleText"/>
+      </ns:AverageReusedContent>
+      <ns:RecyclabilityRate description="SampleText" calculationMethod="SampleText">
+        <ns:MassPercent massPercent="123.45" massPercentRangeMin="123.45" massPercentRangeMax="123.45" negativeTolerance="123.45" positiveTolerance="123.45"/>
+        <ns:Attachment data="QmFzZTY0RGF0YQ==" fileName="SampleText" fileType="SampleText" fileURL="http://example.com" fileZipLocation="SampleText" fileDescription="Certificate of Compliance" otherFileDescription="SampleText" language="SampleText"/>
+      </ns:RecyclabilityRate>
+    </ns:ProductCircularity>
+  </ns:Product>
+  <ns:Signature/>
+  <ns:ToolNameVersionID authority="SampleText" identity="SampleText" version="SampleText"/>
+</ns:Main>

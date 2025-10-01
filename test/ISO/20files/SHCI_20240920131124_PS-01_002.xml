@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Main schemaDatabaseVersion="X8.00ex2.0" xmlns="http://std.iec.ch/iec62474" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" charaLocal="JPN" declarationComplete="true">
+  <Include>
+    <Sectional nameOfSectional="Composition" />
+  </Include>
+  <BusinessInfo mode="Distribution">
+    <Response date="2024-09-30" docID="PP_PS_material" comment="2024-09-30@1@0">
+      <Authorizer division="QA" name="Resin Takao" title="General Manager" email="pp@jamp.co.jp" phone="00-000-0000" internalAddress="" street="" city="" stateProvince="" country="" postalCode="" comment="" nameLocal="" divisionLocal="" titleLocal="" streetLocal="" cityLocal="" stateProvinceLocal="" />
+      <Contact division="QA" name="Plymer Taro" title="Staff" email="pp@jamp.co.jp" phone="00-000-0000" internalAddress="" street="" city="" stateProvince="" country="" postalCode="" comment="" nameLocal="" divisionLocal="" titleLocal="" commentLocal="" streetLocal="" cityLocal="" stateProvinceLocal="" />
+      <SupplyCompany name="JAMP polymer" nameLocal="" />
+    </Response>
+  </BusinessInfo>
+  <Product productFamilyName="" comment="1@2024-09-20 13:11@1@0@@@@" unitType="each">
+    <ProductID name="Polystyrene" identifier="PS-01" effectiveDate="2024-09-30" version="" requesterName="" requesterIdentifier="" />
+    <Composition isFMD="false">
+      <DeclarableSubstanceList identity="chemSHERPA_SubstanceList" authority="chemSHERPA" version="2.10.00" />
+      <Substance name="Polystyrene" descriptionOfUse="" comment="@1">
+        <SubstanceID>
+          <EntryID entryIdentity="9003-53-6" />
+        </SubstanceID>
+        <MassPercent massPercent="99.5" />
+      </Substance>
+      <Substance name="n-pentane" descriptionOfUse="" comment="@1">
+        <SubstanceID>
+          <EntryID entryIdentity="109-66-0" />
+        </SubstanceID>
+        <MassPercent massPercent="0.25" />
+      </Substance>
+      <Substance name="isopentane" descriptionOfUse="" comment="@1">
+        <SubstanceID>
+          <EntryID entryIdentity="78-78-4" />
+        </SubstanceID>
+        <MassPercent massPercent="0.15" />
+      </Substance>
+      <Substance name="Cyclopentane" descriptionOfUse="" comment="@1">
+        <SubstanceID>
+          <EntryID entryIdentity="287-92-3" />
+        </SubstanceID>
+        <MassPercent massPercent="0.1" />
+      </Substance>
+    </Composition>
+  </Product>
+  <ToolNameVersionID identity="chemSHERPA-CI-V2R1.00.0@2.10.00" authority="chemSHERPA" version="0" />
+</Main>

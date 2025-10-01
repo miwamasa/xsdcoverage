@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my:RootDocument 
+    xmlns:my="http://example.com/MySchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://example.com/MySchema extended_schema.xsd"
+    DocumentStatus="Pending"
+    Version="2.5">
+    
+    <my:Header DocumentID="DOC003" Status="Pending">
+        <my:Name>High Coverage Document</my:Name>
+        <my:Description>Document with nested items</my:Description>
+        <my:Metadata ID="META002" CreationDate="2025-01-20" Version="2.0">
+            <my:Name>Advanced Metadata</my:Name>
+            <my:Author>Jane Smith</my:Author>
+        </my:Metadata>
+    </my:Header>
+    
+    <my:Body Status="Pending">
+        <my:Item ItemID="ITEM003" Quantity="10" Status="InProgress" Priority="Medium">
+            <my:Name>Parent Item</my:Name>
+            <my:Description>This item has sub-items</my:Description>
+            <my:Details Type="advanced">
+                <my:Note>Important note</my:Note>
+                <my:Tag Name="tag1" Value="value1">Tag Content 1</my:Tag>
+                <my:Tag Name="tag2">Tag Content 2</my:Tag>
+            </my:Details>
+            
+            <!-- ネストしたSubItem -->
+            <my:SubItem ItemID="SUBITEM001" Quantity="3" Priority="Low">
+                <my:Name>Sub Item Level 1</my:Name>
+                <my:Description>First level nested item</my:Description>
+                
+                <!-- さらにネストしたSubItem -->
+                <my:SubItem ItemID="SUBITEM002" Status="Completed">
+                    <my:Name>Sub Item Level 2</my:Name>
+                </my:SubItem>
+            </my:SubItem>
+        </my:Item>
+        
+        <my:Category CategoryID="CAT002" Status="Completed">
+            <my:Name>Advanced Category</my:Name>
+            <my:Description>Category with multiple items</my:Description>
+            <my:Item ItemID="ITEM004" Priority="High" Status="Completed">
+                <my:Name>Category Item 1</my:Name>
+                <my:Details Type="standard">
+                    <my:Note>Category item note</my:Note>
+                </my:Details>
+            </my:Item>
+        </my:Category>
+    </my:Body>
+    
+    <my:Footer Version="2.5">
+        <my:Timestamp>2025-01-20T15:45:30</my:Timestamp>
+        <my:Summary>
+            <my:TotalItems>5</my:TotalItems>
+            <my:Description>Summary of the document</my:Description>
+        </my:Summary>
+    </my:Footer>
+    
+</my:RootDocument>

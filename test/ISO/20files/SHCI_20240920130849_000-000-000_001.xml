@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Main schemaDatabaseVersion="X8.00ex2.0" xmlns="http://std.iec.ch/iec62474" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" charaLocal="JPN" declarationComplete="true">
+  <Include>
+    <Sectional nameOfSectional="Composition" />
+  </Include>
+  <BusinessInfo mode="Distribution">
+    <Response date="2024-09-30" docID="SolderPaste" comment="2024-09-30@1@0">
+      <Authorizer division="Quality Control Department" name="Taro Shonin" title="Manager" email="Taro.shonin@sherpa.co.jp" phone="03-111-1111" internalAddress="" street="1-1, Asahicho" city="Chiyoda-ku" stateProvince="Tokyo" country="JP" postalCode="101-1111" comment="" nameLocal="承認太郎" divisionLocal="品質管理部" titleLocal="マネージャー" streetLocal="朝日町１－１" cityLocal="千代田区" stateProvinceLocal="東京都" />
+      <Contact division="Quality Control Department" name="Hanako Tanto" title="manager" email="hanako.tanto@sherpa.co.jp" phone="03-1111-1111" internalAddress="" street="1-1, Asahicho" city="Chiyoda-ku" stateProvince="Tokyo" country="JP" postalCode="101-1111" comment="" nameLocal="担当花子" divisionLocal="品質管理部" titleLocal="マネージャー" commentLocal="" streetLocal="朝日町１－１" cityLocal="千代田区" stateProvinceLocal="東京都" />
+      <SupplyCompany name="SHERPA CORPORATION" nameLocal="シェルパ株式会社">
+        <UniqueID authority="DUNS" identity="12345678" version="0" />
+      </SupplyCompany>
+    </Response>
+  </BusinessInfo>
+  <Product productFamilyName="" comment="1@2024-09-20 13:08@1@1@@ABC Corporation@@" unitType="each">
+    <ProductID name="Solder Paste01A" identifier="000-000-000" effectiveDate="2024-09-30" version="" requesterName="" requesterIdentifier="" />
+    <Composition isFMD="false">
+      <DeclarableSubstanceList identity="chemSHERPA_SubstanceList" authority="chemSHERPA" version="2.10.00" />
+      <Substance name="Silver (Ag)" descriptionOfUse="" comment="@0">
+        <SubstanceID>
+          <EntryID entryIdentity="7440-22-4" />
+        </SubstanceID>
+        <MassPercent massPercent="3" />
+      </Substance>
+      <Substance name="Copper (Cu); Copper (metallic)" descriptionOfUse="" comment="@0">
+        <SubstanceID>
+          <EntryID entryIdentity="7440-50-8" />
+        </SubstanceID>
+        <MassPercent massPercent="0.5" />
+      </Substance>
+      <Substance name="Rosin" descriptionOfUse="" comment="@0">
+        <SubstanceID>
+          <EntryID entryIdentity="8050-09-7" />
+        </SubstanceID>
+        <MassPercent massPercent="7" />
+      </Substance>
+    </Composition>
+  </Product>
+  <ToolNameVersionID identity="chemSHERPA-CI-V2R1.00.0@2.10.00" authority="chemSHERPA" version="0" />
+</Main>

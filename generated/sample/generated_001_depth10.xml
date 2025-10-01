@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns:RootDocument xmlns:ns="http://example.com/MySchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/MySchema extended_schema.xsd" DocumentStatus="Unknown" Version="SampleText">
+  <ns:Header DocumentID="SampleText" Status="InProgress">
+    <ns:Name>SampleText</ns:Name>
+    <ns:Description>SampleText</ns:Description>
+    <ns:Metadata ID="ID3178" Version="SampleText" CreationDate="2025-01-15">
+      <ns:Name>SampleText</ns:Name>
+      <ns:Author>SampleText</ns:Author>
+    </ns:Metadata>
+  </ns:Header>
+  <ns:Body Status="Unknown">
+    <ns:Item ItemID="SampleText" Quantity="42" Status="Unknown" Priority="High">
+      <ns:Name>SampleText</ns:Name>
+      <ns:Description>SampleText</ns:Description>
+      <ns:Details Type="SampleText">
+        <ns:Note>SampleText</ns:Note>
+        <ns:Tag Name="SampleText" Value="SampleText"/>
+      </ns:Details>
+      <ns:SubItem ItemID="SampleText" Quantity="42" Status="InProgress" Priority="Medium">
+        <ns:Name>SampleText</ns:Name>
+        <ns:Description>SampleText</ns:Description>
+        <ns:Details Type="SampleText">
+          <ns:Note>SampleText</ns:Note>
+          <ns:Tag Name="SampleText" Value="SampleText"/>
+        </ns:Details>
+        <ns:SubItem ItemID="SampleText" Quantity="42" Status="Pending" Priority="Low">
+          <ns:Name>SampleText</ns:Name>
+          <ns:Description>SampleText</ns:Description>
+          <ns:Details Type="SampleText">
+            <ns:Note>SampleText</ns:Note>
+            <ns:Tag Name="SampleText" Value="SampleText"/>
+          </ns:Details>
+          <ns:SubItem ItemID="SampleText" Quantity="42" Status="Pending" Priority="High">
+            <ns:Name>SampleText</ns:Name>
+            <ns:Description>SampleText</ns:Description>
+            <ns:Details Type="SampleText">
+              <ns:Note>SampleText</ns:Note>
+              <ns:Tag Name="SampleText" Value="SampleText"/>
+            </ns:Details>
+            <ns:SubItem ItemID="SampleText" Quantity="42" Status="InProgress" Priority="Medium">
+              <ns:Name>SampleText</ns:Name>
+              <ns:Description>SampleText</ns:Description>
+              <ns:Details Type="SampleText">
+                <ns:Note>SampleText</ns:Note>
+                <ns:Tag Name="SampleText" Value="SampleText"/>
+              </ns:Details>
+              <ns:SubItem ItemID="SampleText" Quantity="42" Status="Completed" Priority="Medium">
+                <ns:Name>SampleText</ns:Name>
+                <ns:Description>SampleText</ns:Description>
+                <ns:Details Type="SampleText">
+                  <ns:Note>SampleText</ns:Note>
+                  <ns:Tag Name="SampleText" Value="SampleText"/>
+                </ns:Details>
+                <ns:SubItem ItemID="SampleText" Quantity="42" Status="Pending" Priority="Low">
+                  <ns:Name>SampleText</ns:Name>
+                  <ns:Description>SampleText</ns:Description>
+                  <ns:Details Type="SampleText">
+                    <ns:Note>SampleText</ns:Note>
+                    <ns:Tag/>
+                  </ns:Details>
+                  <ns:SubItem ItemID="SampleText" Quantity="42" Status="InProgress" Priority="Medium">
+                    <ns:Name>SampleText</ns:Name>
+                    <ns:Description>SampleText</ns:Description>
+                    <ns:Details/>
+                    <ns:SubItem/>
+                  </ns:SubItem>
+                </ns:SubItem>
+              </ns:SubItem>
+            </ns:SubItem>
+          </ns:SubItem>
+        </ns:SubItem>
+      </ns:SubItem>
+    </ns:Item>
+    <ns:Category CategoryID="SampleText" Status="InProgress">
+      <ns:Name>SampleText</ns:Name>
+      <ns:Description>SampleText</ns:Description>
+      <ns:Item ItemID="SampleText" Quantity="42" Status="InProgress" Priority="Low">
+        <ns:Name>SampleText</ns:Name>
+        <ns:Description>SampleText</ns:Description>
+        <ns:Details Type="SampleText">
+          <ns:Note>SampleText</ns:Note>
+          <ns:Tag Name="SampleText" Value="SampleText"/>
+        </ns:Details>
+        <ns:SubItem ItemID="SampleText" Quantity="42" Status="Unknown" Priority="Low">
+          <ns:Name>SampleText</ns:Name>
+          <ns:Description>SampleText</ns:Description>
+          <ns:Details Type="SampleText">
+            <ns:Note>SampleText</ns:Note>
+            <ns:Tag Name="SampleText" Value="SampleText"/>
+          </ns:Details>
+          <ns:SubItem ItemID="SampleText" Quantity="42" Status="Completed" Priority="Low">
+            <ns:Name>SampleText</ns:Name>
+            <ns:Description>SampleText</ns:Description>
+            <ns:Details Type="SampleText">
+              <ns:Note>SampleText</ns:Note>
+              <ns:Tag Name="SampleText" Value="SampleText"/>
+            </ns:Details>
+            <ns:SubItem ItemID="SampleText" Quantity="42" Status="Completed" Priority="High">
+              <ns:Name>SampleText</ns:Name>
+              <ns:Description>SampleText</ns:Description>
+              <ns:Details Type="SampleText">
+                <ns:Note>SampleText</ns:Note>
+                <ns:Tag Name="SampleText" Value="SampleText"/>
+              </ns:Details>
+              <ns:SubItem ItemID="SampleText" Quantity="42" Status="Pending" Priority="Low">
+                <ns:Name>SampleText</ns:Name>
+                <ns:Description>SampleText</ns:Description>
+                <ns:Details Type="SampleText">
+                  <ns:Note>SampleText</ns:Note>
+                  <ns:Tag Name="SampleText" Value="SampleText"/>
+                </ns:Details>
+                <ns:SubItem ItemID="SampleText" Quantity="42" Status="Completed" Priority="Low">
+                  <ns:Name>SampleText</ns:Name>
+                  <ns:Description>SampleText</ns:Description>
+                  <ns:Details Type="SampleText">
+                    <ns:Note>SampleText</ns:Note>
+                    <ns:Tag/>
+                  </ns:Details>
+                  <ns:SubItem ItemID="SampleText" Quantity="42" Status="Unknown" Priority="Low">
+                    <ns:Name>SampleText</ns:Name>
+                    <ns:Description>SampleText</ns:Description>
+                    <ns:Details/>
+                    <ns:SubItem/>
+                  </ns:SubItem>
+                </ns:SubItem>
+              </ns:SubItem>
+            </ns:SubItem>
+          </ns:SubItem>
+        </ns:SubItem>
+      </ns:Item>
+    </ns:Category>
+  </ns:Body>
+  <ns:Footer Version="SampleText">
+    <ns:Timestamp>2025-01-15T10:30:00</ns:Timestamp>
+    <ns:Summary>
+      <ns:TotalItems>42</ns:TotalItems>
+      <ns:Description>SampleText</ns:Description>
+    </ns:Summary>
+  </ns:Footer>
+</ns:RootDocument>

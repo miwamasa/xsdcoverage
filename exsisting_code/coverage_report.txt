@@ -1,0 +1,289 @@
+================================================================================
+XSDカバレッジレポート（階層構造考慮版）
+================================================================================
+
+【要素カバレッジ】
+  XSDで定義された要素パス数: 116
+  ├─ XMLで使用されている数: 31
+  └─ XMLで未使用の数: 85
+  
+  XMLに存在する要素パス総数: 31
+  ├─ XSDで定義済み: 31
+  └─ XSDで未定義: 0
+  
+  カバレッジ率: 26.72%
+  （定義された116個のうち31個が使用されている）
+
+【属性カバレッジ】
+  XSDで定義された属性パス数: 120
+  ├─ XMLで使用されている数: 27
+  └─ XMLで未使用の数: 93
+  
+  XMLに存在する属性パス総数: 27
+  ├─ XSDで定義済み: 27
+  └─ XSDで未定義: 0
+  
+  カバレッジ率: 22.50%
+  （定義された120個のうち27個が使用されている）
+
+【総合カバレッジ】
+  XSDで定義された総パス数: 236
+  ├─ XMLで使用されている数: 58
+  └─ XMLで未使用の数: 178
+  
+  XMLに存在する総パス数: 58
+  ├─ XSDで定義済み: 58
+  └─ XSDで未定義: 0
+  
+  カバレッジ率: 24.58%
+  （定義された236個のうち58個が使用されている）
+
+【未使用の要素パス】
+  - /RootDocument/Body/Category/Item/Description
+  - /RootDocument/Body/Category/Item/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+
+【未使用の属性パス】
+  - /RootDocument/Body/Category/Item/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem/SubItem@Status
+  - /RootDocument/Body/Category/Item/SubItem@ItemID
+  - /RootDocument/Body/Category/Item/SubItem@Priority
+  - /RootDocument/Body/Category/Item/SubItem@Quantity
+  - /RootDocument/Body/Category/Item/SubItem@Status
+  - /RootDocument/Body/Category/Item@Quantity
+  - /RootDocument/Body/Item/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Name
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag@Value
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details@Type
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem@ItemID
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem/SubItem/SubItem@Status
+  - /RootDocument/Body/Item/SubItem/SubItem@Priority
+  - /RootDocument/Body/Item/SubItem/SubItem@Quantity
+  - /RootDocument/Body/Item/SubItem@Status
+
+【使用されている要素パス一覧】
+  総数: 31個
+
+  ✓ /RootDocument
+  ✓ /RootDocument/Body
+  ✓ /RootDocument/Body/Category
+  ✓ /RootDocument/Body/Category/Description
+  ✓ /RootDocument/Body/Category/Item
+  ✓ /RootDocument/Body/Category/Item/Details
+  ✓ /RootDocument/Body/Category/Item/Details/Note
+  ✓ /RootDocument/Body/Category/Item/Name
+  ✓ /RootDocument/Body/Category/Name
+  ✓ /RootDocument/Body/Item
+  ✓ /RootDocument/Body/Item/Description
+  ✓ /RootDocument/Body/Item/Details
+  ✓ /RootDocument/Body/Item/Details/Note
+  ✓ /RootDocument/Body/Item/Details/Tag
+  ✓ /RootDocument/Body/Item/Name
+  ✓ /RootDocument/Body/Item/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/Description
+  ✓ /RootDocument/Body/Item/SubItem/Name
+  ✓ /RootDocument/Body/Item/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/Name
+  ✓ /RootDocument/Footer
+  ✓ /RootDocument/Footer/Summary
+  ✓ /RootDocument/Footer/Summary/Description
+  ✓ /RootDocument/Footer/Summary/TotalItems
+  ✓ /RootDocument/Footer/Timestamp
+  ✓ /RootDocument/Header
+  ✓ /RootDocument/Header/Description
+  ✓ /RootDocument/Header/Metadata
+  ✓ /RootDocument/Header/Metadata/Author
+  ✓ /RootDocument/Header/Metadata/Name
+  ✓ /RootDocument/Header/Name
+
+【使用されている属性パス一覧】
+  総数: 27個
+
+  ✓ /RootDocument/Body/Category/Item/Details@Type
+  ✓ /RootDocument/Body/Category/Item@ItemID
+  ✓ /RootDocument/Body/Category/Item@Priority
+  ✓ /RootDocument/Body/Category/Item@Status
+  ✓ /RootDocument/Body/Category@CategoryID
+  ✓ /RootDocument/Body/Category@Status
+  ✓ /RootDocument/Body/Item/Details/Tag@Name
+  ✓ /RootDocument/Body/Item/Details/Tag@Value
+  ✓ /RootDocument/Body/Item/Details@Type
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem/SubItem@Status
+  ✓ /RootDocument/Body/Item/SubItem@ItemID
+  ✓ /RootDocument/Body/Item/SubItem@Priority
+  ✓ /RootDocument/Body/Item/SubItem@Quantity
+  ✓ /RootDocument/Body/Item@ItemID
+  ✓ /RootDocument/Body/Item@Priority
+  ✓ /RootDocument/Body/Item@Quantity
+  ✓ /RootDocument/Body/Item@Status
+  ✓ /RootDocument/Body@Status
+  ✓ /RootDocument/Footer@Version
+  ✓ /RootDocument/Header/Metadata@CreationDate
+  ✓ /RootDocument/Header/Metadata@ID
+  ✓ /RootDocument/Header/Metadata@Version
+  ✓ /RootDocument/Header@DocumentID
+  ✓ /RootDocument/Header@Status
+  ✓ /RootDocument@DocumentStatus
+  ✓ /RootDocument@Version
+
+================================================================================

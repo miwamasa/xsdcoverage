@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my:RootDocument 
+    xmlns:my="http://example.com/MySchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://example.com/MySchema extended_schema.xsd"
+    DocumentStatus="Completed"
+    Version="1.0">
+    
+    <my:Header DocumentID="DOC002" Status="Completed">
+        <my:Name>Medium Coverage Document</my:Name>
+        <my:Description>This document has medium coverage</my:Description>
+        <my:Metadata ID="META001" CreationDate="2025-01-15">
+            <my:Name>Metadata Name</my:Name>
+            <my:Author>John Doe</my:Author>
+        </my:Metadata>
+    </my:Header>
+    
+    <my:Body Status="InProgress">
+        <my:Item ItemID="ITEM001" Quantity="5" Status="Completed">
+            <my:Name>First Item</my:Name>
+            <my:Description>Description of first item</my:Description>
+            <my:Details Type="standard">
+                <my:Note>Note 1</my:Note>
+                <my:Note>Note 2</my:Note>
+            </my:Details>
+        </my:Item>
+        
+        <my:Category CategoryID="CAT001" Status="InProgress">
+            <my:Name>Category 1</my:Name>
+            <my:Item ItemID="ITEM002" Priority="High">
+                <my:Name>Category Item</my:Name>
+            </my:Item>
+        </my:Category>
+    </my:Body>
+    
+    <my:Footer Version="1.0">
+        <my:Timestamp>2025-01-15T10:30:00</my:Timestamp>
+    </my:Footer>
+    
+</my:RootDocument>

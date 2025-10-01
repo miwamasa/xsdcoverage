@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Main schemaDatabaseVersion="X8.00ex2.0" xmlns="http://std.iec.ch/iec62474" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" charaLocal="JPN" declarationComplete="true">
+  <Include>
+    <Sectional nameOfSectional="Compliance" />
+    <Sectional nameOfSectional="Composition" />
+  </Include>
+  <BusinessInfo mode="Distribution">
+    <Response date="2024-09-30" docID="All_parts_for_Toch_light" comment="2024-09-30@1@0">
+      <Authorizer division="Quality Control Department" name="Taro Shonin" title="Manager" email="taro.shonin@sherpa.co.jp" phone="03-111-1111" internalAddress="" street="1-1, Asahicho" city="Chiyoda-ku" stateProvince="Tokyo" country="JP" postalCode="" nameLocal="承認太郎" divisionLocal="品質管理部" titleLocal="マネージャー" streetLocal="朝日町1-1" cityLocal="千代田区" stateProvinceLocal="東京都" />
+      <Contact division="Quality Control Department" name="Hanako Tanto" title="manager" email="hanako.tanto@sherpa.co.jp" phone="03-1111-1111" internalAddress="" street="1-1, Asahicho" city="Chiyoda-ku" stateProvince="Tokyo" country="JP" postalCode="101-1111" comment="" nameLocal="担当花子" divisionLocal="品質管理部" titleLocal="マネージャー" commentLocal="" streetLocal="朝日町1-1" cityLocal="千代田区" stateProvinceLocal="東京都" />
+      <SupplyCompany name="SHERPA CORPORATION" nameLocal="シェルパ株式会社">
+        <UniqueID authority="DUNS" identity="12345678" version="0" />
+      </SupplyCompany>
+    </Response>
+  </BusinessInfo>
+  <Product unitType="each" productFamilyName="" isArticle="true" comment="1@2024-09-11 13:30@1@2024-09-11 13:28@1@@@@1@1@LMN8901@Film@105619@108022@No need to provide safe use information beyond the identification of the Candidate List substance">
+    <ProductID name="Housing 1" identifier="Housing-1" effectiveDate="2024-09-30" version="1" requesterName="" requesterIdentifier="">
+      <Mass mass="50" unitOfMeasure="g" />
+    </ProductID>
+    <Compliance>
+      <DeclarableSubstanceList identity="DSL" authority="IEC62474" version="D29.00" />
+      <DsDsg name="Lead dinitrate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00089" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Melamine" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00190" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-dimethoxyethane; ethylene glycol dimethyl ether (EGDME)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00068" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Potassium hydroxyoctaoxodizincatedichromate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00061" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis(2-methoxyethyl) ether" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00058" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,3-propanesultone" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00133" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-bis(2-methoxyethoxy)ethane (TEGDME; triglyme)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00066" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Tris(2-chloroethyl) phosphate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00056" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis(pentabromophenyl) ether (decabromodiphenyl ether) (DecaBDE)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00064" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis (2-ethylhexyl)phthalate (DEHP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00038" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Bis(2-methoxyethyl) phthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00059" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2-(dimethylamino)-2-[(4-methylphenyl)methyl]-1-[4-(morpholin-4-yl)phenyl]butan-1-one" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00198" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="6,6'-di-tert-butyl-2,2'-methylenedi-p-cresol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00181" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Disodium octaborate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00152" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead oxide sulfate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00085" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead titanium trioxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00083" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Pentalead tetraoxide sulphate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00073" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Trilead dioxide phosphonate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00067" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Tetralead trioxide sulphate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00070" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Tetraboron disodium heptaoxide, hydrate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00163" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dioxobis(stearato)trilead" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00087" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead titanium zirconium oxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00084" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead chromate molybdate sulphate red (C.I. Pigment Red 104)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00027" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Pyrene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00159" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diarsenic pentoxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00001" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diboron trioxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00075" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Beryllium Oxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00005" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Cadmium oxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00094" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Cadmium sulphide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00099" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dipentyl phthalate (DPP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00095" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Orange lead (lead tetroxide)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00071" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diarsenic trioxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00002" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead sulfochromate yellow (C.I. Pigment Yellow 34)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00028" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Barium diboron tetraoxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00187" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4-(1,1,3,3-tetramethylbutyl)phenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00057" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis(2-(2-methoxyethoxy)ethyl)ether" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00172" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2-ethylhexyl 10-ethyl-4,4-dioctyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate (DOTE)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00128" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzo[ghi]perylene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00148" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzo[e]pyrene (BeP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00109" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[e]pyrene (BeP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00117" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Disodium 4-amino-3-[[4'-[(2,4-diaminophenyl)azo][1,1'-biphenyl]-4-yl]azo]-5-hydroxy-6-(phenylazo)naphthalene-2,7-disulphonate (C.I. Direct Black 38)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00126" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzo[j]fluoranthene (BjFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00113" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[j]fluoranthene (BjFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00121" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[b]fluoranthene (BbFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00112" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[b]fluoranthene (BbFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00120" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Fluoranthene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00157" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzo[k]fluoranthene (BkFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00114" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[k]fluoranthene (BkFA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00122" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[k]fluoranthene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00156" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead cyanamidate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00077" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Cadmium hydroxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00146" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Chrysen (CHR)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00111" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Chrysen (CHR)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00119" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Chrysene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00144" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dibutylbis(pentane-2,4-dionato-O,O')tin" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00170" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Trixylyl phosphate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00100" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2-(2H-benzotriazol-2-yl)-4,6-ditertpentylphenol (UV-328)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00130" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diisooctyl phthalate (DIOP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00203" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article or mixture [ReportingLevel:Article,  Mixture]" />
+      </DsDsg>
+      <DsDsg name="2-(2H-benzotriazol-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol (UV-329)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00197" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Pentadecafluorooctanoic Acid (PFOA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00096" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2-(2H-benzotriazol-2-yl)-4-(tert-butyl)-6-(sec-butyl)phenol (UV-350)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00135" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,1'-[ethane-1,2-diylbisoxy]bis[2,4,6-tribromobenzene]" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00184" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Ammonium pentadecafluorooctanoate (APFO)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00097" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2-benzotriazol-2-yl-4,6-di-tert-butylphenol (UV-320)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00035" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2,4-di-tert-butyl-6-(5-chlorobenzotriazol-2-yl)phenol (UV-327)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00134" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bumetrizole (UV-326)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00199" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Isobutyl 4-hydroxybenzoate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00189" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Pentazinc chromate octahydroxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00060" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Formaldehyde" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00019" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="(a) clothing or related accessories, (b) textiles other than clothing which, under normal or reasonably foreseeable conditions of use, come into contact with human skin to an extent similar to clothing, (c) footwear" reportingThreshold="0.0075 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[a]pyrene (BaP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00108" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[a]pyrene (BaP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00116" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[def]chrysene (Benzo[a]pyrene)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00138" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dibenzo[a,h]anthracene (DBAhA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00115" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Dibenzo[a,h]anthracene (DBAhA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00123" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Dodecamethylcyclohexasiloxane" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00151" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Decamethylcyclopentasiloxane" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00150" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Octamethylcyclotetrasiloxane" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00149" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis(tributyltin) oxide (TBTO)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00054" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzo[a]anthracene (BaA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00110" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts that come into direct, prolonged or repetitive skin or oral cavity contact except those for toys or childcare articles" reportingThreshold="0.0001 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benzo[a]anthracene (BaA)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00118" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Rubber or plastic parts of toys and childcare articles that come into direct, prolonged or repetitive skin or oral cavity contact" reportingThreshold="0.00005 mass% of the plastic or rubber part [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Benz[a]anthracene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00145" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Disodium 3,3'-[[1,1'-biphenyl]-4,4'-diylbis(azo)]bis(4-aminonaphthalene-1-sulphonate) (C.I. Direct Red 28)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00102" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4-Aminoazobenzene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00069" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diisopentyl phthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00081" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Terphenyl, hydrogenated" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00153" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Sulfurous acid, lead salt, dibasic" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00065" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dimethylfumarate (DMF)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00016" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.00001 mass% of the part [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="1,2-Diethoxyethane" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00074" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Colecalciferol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00204" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article or mixture [ReportingLevel:Article,  Mixture]" />
+      </DsDsg>
+      <DsDsg name="2,2-bis(4'-hydroxyphenyl)-4-methylpentane" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00155" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="N,N-dimethylformamide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00078" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dibutyltin dichloride (DBTC)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00076" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-Benzenedicarboxylic acid, di-C7-11-branched and linear alkyl esters" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00043" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-Benzenedicarboxylic acid, dihexyl ester, branched and linear" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00106" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Silicic acid (H2Si2O5), barium salt (1:1), lead-doped" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00079" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Phenol, Isopropylated Phosphate (3:1) (PIP (3:1))" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00174" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added  [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="[Phthalato(2-)]dioxotrilead" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00086" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diisohexyl phthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00164" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-Benzenedicarboxylic acid, di-C6-8-branched alkyl esters, C7-rich" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00042" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2,4,6-tri-tert-butylphenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00196" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00154" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Cadmium" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00093" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="diphenyl(2,4,6-trimethylbenzoyl)phosphine oxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00195" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Cobalt Dichloride" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00013" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4,4'-(1-methylpropylidene)bisphenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00177" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead chromate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00026" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="N-pentyl-isopentylphthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00082" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Strontium chromate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00053" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="2,2',6,6'-tetrabromo-4,4'-isopropylidenediphenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00185" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4,4'-isopropylidenediphenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00141" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="bis(4-chlorophenyl) sulphone" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00194" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4,4'-sulphonyldiphenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00186" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Pyrochlore, antimony lead yellow" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00072" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Bis(α,α-dimethylbenzyl) peroxide" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00202" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Dicyclohexyl phthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00139" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Diisobutyl phthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00041" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Dibutyl phthalate (DBP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00039" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Di-n-hexyl Phthalate (DnHP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00091" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,2-Benzenedicarboxylic acid, dipentyl ester, branched and linear" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00080" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Phenanthrene" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00158" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Benzyl butyl phthalate (BBP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00040" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Fatty acids, C16-18, lead salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00088" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Imidazolidine-2-thione (2-imidazoline-2-thiol)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00105" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="reaction mass of 2-ethylhexyl 10-ethyl-4,4-dioctyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate and 2-ethylhexyl 10-ethyl-4-[[2-[(2-ethylhexyl)oxy]-2-oxoethyl]thio]-4-octyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate (reaction mass of DOTE and MOTE)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00129" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="reaction mass of 2,2,3,3,5,5,6,6-octafluoro-4-(1,1,1,2,3,3,3-heptafluoropropan-2-yl)morpholine and 2,2,3,3,5,5,6,6-octafluoro-4-(heptafluoropropyl)morpholine" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00192" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Asbestos" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00003" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Azocolourants and azodyes which form certain aromatic amines" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00004" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Textiles and Leather" reportingThreshold="0.003% by weight of the finished textile/leather product [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Boric acid" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00007" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Brominated flame retardants (other than PBBs, PBDEs, or HBCDD)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00008" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Printed wiring board laminate" reportingThreshold="0.09 mass% total bromine content in laminate [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Brominated flame retardants (other than PBBs, PBDEs, or HBCDD)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00009" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Plastic materials except printed wiring board laminates" reportingThreshold="0.1 mass% of bromine in plastic materials [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Cadmium/Cadmium compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00010" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All, except batteries" reportingThreshold="0.01 mass% of total Cd in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Cadmium/Cadmium compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00011" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Batteries" reportingThreshold="0.001% by weight of battery [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Cadmium/Cadmium compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00166" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Video display devices, with a screen size of greater than four inches" reportingThreshold="0.01 mass% of total Cd in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Chromium (VI) Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00012" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of total Cr+6 in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Chromium (VI) Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00167" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Video display devices, with a screen size of greater than four inches" reportingThreshold="0.1 mass% of total Cr+6 in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Dibutyltin (DBT) compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00014" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of tin in the part [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Dioctyltin (DOT) compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00015" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="(a) textile and leather articles intended to come into contact with the skin, (b) childcare articles, (c) two-component room temperature vulcanisation moulding kits (RTV-2 moulding kits)" reportingThreshold="0.1 mass% of tin in the part [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Disodium tetraborate, anhydrous" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00017" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Fluorinated Greenhouse Gases (PFC, SF6, HFC)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00018" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally Added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Hexabromocyclododecane (HBCDD)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00020" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.01 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00021" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All, except batteries" reportingThreshold="0.1 mass% of total Pb in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00022" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Consumer products designed or intended primarily for children 12 years of age or younger" reportingThreshold="0.01 mass% [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00023" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Paint and similar surface coatings of toys and other articles intended for use by children" reportingThreshold="0.009 mass% of surface coating material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00024" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Cables/cords with thermoset or thermoplastic coatings" reportingThreshold="0.03 mass% of surface coating material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00025" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Batteries" reportingThreshold="0.004 mass% of battery [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Lead/Lead Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00168" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Video display devices, with a screen size of greater than four inches" reportingThreshold="0.1 mass% of total Pb in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Mercury/Mercury Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00029" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All, except batteries" reportingThreshold="Intentionally Added or 0.1 mass% of total Hg in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Mercury/Mercury Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00030" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Batteries" reportingThreshold="Intentionally added or 0.0001 mass% of battery [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Mercury/Mercury Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00132" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Batteries" reportingThreshold="0.0005 mass% of total Hg in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Mercury/Mercury Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00169" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Video display devices, with a screen size of greater than four inches" reportingThreshold="0.1 mass% of total Hg in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Ozone Depleting Substances (CFC, Halon, HBFC, HCFC &amp; others)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00032" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally Added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Perchlorates" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00033" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="6 x 10 ^-7 mass% of battery or product part [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Perfluorooctane sulfonates (PFOS)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00124" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Textiles or other coated materials." reportingThreshold="Intentionally added or 1 microgram/m2 of coated material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Perfluorooctane sulfonates (PFOS)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00125" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All except textiles or other coated materials." reportingThreshold="Intentionally added or 0.1 mass% of the part (as the sum of PFOS) [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Phthalates, Selected Group 1 (DEHP, DBP, BBP, DIBP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00036" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Children's toy or child care article" reportingThreshold="0.1 mass% as the sum of the phthalate concentrations in plasticized material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Phthalates, Selected Group 2 (DIDP, DINP, DNOP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00037" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Children's toy or child care article that can be placed in a child's mouth" reportingThreshold="0.1 mass% as the sum of the phthalate concentrations in plasticized material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Polybrominated biphenyls (PBB)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00044" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Polybrominated diphenyl ethers (PBDE)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00045" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% in homogenous material or Intentionally added [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Polychlorinated Biphenyls (PCBs) and specific substitutes" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00046" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Polychlorinated Terphenyls (PCTs)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00047" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.005 mass% in material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Polychlorinated naphthalenes" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00048" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Radioactive substances" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00049" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Aluminosilicate Refractory Ceramic Fibres" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00050" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Zirconia Aluminosilicate Refractory Ceramic Fibres" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00051" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Alkanes, C10-13, chloro (Short Chain Chlorinated Paraffins)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00052" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Tri-substituted organostannic compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00055" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.1 mass% of tin in the part [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Chlorinated Flame Retardants (CFR)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00062" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Plastic materials except printed wiring board laminates" reportingThreshold="0.1 mass% chlorine in plastic materials [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Chlorinated Flame Retardants (CFR)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00063" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="Printed Wiring Board (PWB) Laminates" reportingThreshold="0.09 mass% total chlorine content in laminate [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Hexahydromethylphthalic anhydride" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00092" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="4-Nonylphenol, branched and linear, ethoxylated" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00098" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Di-isodecyl phthalate (DIDP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00090" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Diisononyl phthalate (DINP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00107" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="1,2-benzenedicarboxylic acid, di-C6-10-alkyl esters or mixed decyl and hexyl and octyl diesters" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00131" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Perfluorononan-1-oic-acid and its sodium and ammonium salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00140" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Nonadecafluorodecanoic acid (PFDA) and its sodium and ammonium salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00142" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Nickel/Nickel Compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00031" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All, where prolonged skin contact is expected" reportingThreshold="Intentionally Added [ReportingLevel:Product]" />
+      </DsDsg>
+      <DsDsg name="Perfluorohexane-1-sulphonic acid and its salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00143" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="1,6,7,8,9,14,15,16,17,17,18,18-Dodecachloropentacyclo[12.2.1.16,9.02,13.05,10]octadeca-7,15-diene (“Dechlorane Plus”™)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00147" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Perfluorooctanoic acid and its salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00160" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.0000025 mass% of PFOA including its salts in article or mixture [ReportingLevel:Article, Mixture]" />
+      </DsDsg>
+      <DsDsg name="PFOA-related compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00161" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.0001 mass% of one or a combination of PFOA-related compounds,  in article or mixture [ReportingLevel:Article, Mixture]" />
+      </DsDsg>
+      <DsDsg name="Tris(4-nonylphenyl, branched and linear) phosphite (TNPP) with ≥ 0.1% w/w of 4-nonylphenol, branched and linear (4-NP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00162" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Perfluorobutane sulfonic acid (PFBS) and its salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00165" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Halogenated Flame Retardants" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00171" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="enclosure and stand of electronic displays, including televisions, monitors and digital signage displays with a screen area greater than 100 square centimetres" reportingThreshold="0.1 mass% of halogen content in homogeneous material [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Dioctyltin dilaurate, stannane, dioctyl-, bis(coco acyloxy) derivs., and any other stannane, dioctyl-, bis(fatty acyloxy) derivs. wherein C12 is the predominant carbon number of the fatty acyloxy moiety" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00173" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Medium-chain chlorinated paraffins (MCCP)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00178" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="orthoboric acid, sodium salt" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00179" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Cobalt/Cobalt compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00175" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="batteries used in computer servers and online data storage products" reportingThreshold="Intentionally Added [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="Neodymium/Neodymium compounds" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00176" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="HDDs used in computer servers and online data storage products" reportingThreshold="Intentionally Added [ReportingLevel:Product Part]" />
+      </DsDsg>
+      <DsDsg name="4-Nonylphenol, branched and linear" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00180" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="C9-C14 PFCAs and their salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00182" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.0000025 mass% for the sum of C9-C14 PFCAs and their salts in Article or Mixture [ReportingLevel:Article, Mixture]" />
+      </DsDsg>
+      <DsDsg name="C9-C14 PFCA-related substances" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00183" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.000026 mass% for the sum of C9-C14 PFCA-related substances in Article or Mixture [ReportingLevel:Article, Mixture]" />
+      </DsDsg>
+      <DsDsg name="Bis(2-ethylhexyl) tetrabromophthalate" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00188" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Perfluoroheptanoic acid and its salts" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00191" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+      <DsDsg name="Per- and poly-fluoroalkyl substances (PFAS)" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00193" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added [ReportingLevel:Material]" />
+      </DsDsg>
+      <DsDsg name="Pentachlorophenol and its salts and esters" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00201" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="Intentionally added or 0.0005 mass% of PCP including its salts and esters in article or mixture [ReportingLevel:Article, Mixture]" />
+      </DsDsg>
+      <DsDsg name="Oligomerisation and alkylation reaction products of 2-phenylpropene and phenol" comment="@@@@@@@@@@@">
+        <DsDsgID entryIdentity="00200" />
+        <ComplianceThreshold aboveComplianceThreshold="false" reportableApplication="All" reportingThreshold="0.1 mass% of article [ReportingLevel:Article]" />
+      </DsDsg>
+    </Compliance>
+    <Composition isFMD="false">
+      <DeclarableSubstanceList identity="chemSHERPA_SubstanceList" authority="chemSHERPA" version="2.10.00" />
+      <ProductPart numberOfUnits="1" isArticle="true">
+        <ProductID name="PP" identifier="Parts00001">
+          <Mass mass="50000" unitOfMeasure="mg" />
+        </ProductID>
+        <Material name="PP (Polypropylene)" comment="1@@@@" isArticle="true">
+          <MaterialID>
+            <ListID identity="chemSHERPA_MaterialList" authority="chemSHERPA" version="2.00.03" />
+            <EntryID entryIdentity="P512" />
+          </MaterialID>
+          <MaterialClassID>
+            <ListID identity="MCL" authority="IEC62474" version="M2.00" />
+            <EntryID entryIdentity="M-202" />
+          </MaterialClassID>
+          <Mass mass="50" unitOfMeasure="g" />
+          <Substance name="Phenol, 4,4',4''-(1-methyl-1-propanyl-3-ylidene)tris[2-(1,1-dimethylethyl)-5-methyl-" comment="@0">
+            <SubstanceID>
+              <EntryID entryIdentity="1843-03-4" />
+            </SubstanceID>
+            <MassPercent massPercent="0.2" />
+          </Substance>
+        </Material>
+      </ProductPart>
+    </Composition>
+  </Product>
+  <ToolNameVersionID identity="chemSHERPA-AI-V2R1.00.1@2.10.00" authority="chemSHERPA" version="0" />
+</Main>

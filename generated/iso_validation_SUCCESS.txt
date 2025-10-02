@@ -1,0 +1,22 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 10
+✓ Valid:   10 (100.0%)
+✗ Invalid: 0 (0.0%)
+
+【Valid なXMLファイル (10個)】
+  ✓ generated/pairwise_iso_fixed/pairwise_test_000.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_001.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_002.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_003.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_004.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_005.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_006.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_007.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_008.xml
+  ✓ generated/pairwise_iso_fixed/pairwise_test_009.xml
+
+================================================================================

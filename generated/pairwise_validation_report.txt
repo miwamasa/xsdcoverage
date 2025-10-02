@@ -1,0 +1,198 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 23
+✓ Valid:   0 (0.0%)
+✗ Invalid: 23 (100.0%)
+
+【Invalid なXMLファイル (23個)】
+  ✗ generated/pairwise_sample/pairwise_test_000.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 12: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 12: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 19: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 19: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 26: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 26: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 33: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 33: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 40: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 40: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 47: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 47: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 54: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 54: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 58: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 58: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 58: Element '{http://example.com/MySchema}SubItem': Missing child element(s). Expected is ( {http://example.com/MySchema}Name ).
+      Line 66: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 69: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 69: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 76: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 76: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 83: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 83: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 90: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 90: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 97: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 97: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 104: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 104: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 108: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 108: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 108: Element '{http://example.com/MySchema}SubItem': Missing child element(s). Expected is ( {http://example.com/MySchema}Name ).
+      Line 118: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+      Line 120: Element '{http://example.com/MySchema}TotalItems': 'sample_text' is not a valid value of the atomic type 'xs:integer'.
+
+  ✗ generated/pairwise_sample/pairwise_test_001.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_002.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 6: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_003.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_004.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 6: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 12: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 16: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 26: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+      Line 28: Element '{http://example.com/MySchema}TotalItems': 'sample_text' is not a valid value of the atomic type 'xs:integer'.
+
+  ✗ generated/pairwise_sample/pairwise_test_005.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 10: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_006.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 13: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 21: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_007.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 16: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_008.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 10: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 12: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_009.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_010.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 18: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 18: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 25: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_011.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 6: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 9: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 11: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 14: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 14: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 17: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 29: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+      Line 31: Element '{http://example.com/MySchema}TotalItems': 'sample_text' is not a valid value of the atomic type 'xs:integer'.
+
+  ✗ generated/pairwise_sample/pairwise_test_012.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 14: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 14: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 24: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 24: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_013.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 10: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 13: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 13: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 17: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_014.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 10: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 24: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 27: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_015.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_016.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}Item', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 15: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 18: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 25: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 35: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_017.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_018.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+
+  ✗ generated/pairwise_sample/pairwise_test_019.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 12: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 22: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_020.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 9: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+      Line 11: Element '{http://example.com/MySchema}TotalItems': 'sample_text' is not a valid value of the atomic type 'xs:integer'.
+
+  ✗ generated/pairwise_sample/pairwise_test_021.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}SubItem', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 11: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 19: Element '{http://example.com/MySchema}Category', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 25: Element '{http://example.com/MySchema}Timestamp': 'sample_text' is not a valid value of the atomic type 'xs:dateTime'.
+
+  ✗ generated/pairwise_sample/pairwise_test_022.xml
+      Line 2: Element '{http://example.com/MySchema}RootDocument', attribute 'DocumentStatus': [facet 'enumeration'] The value 'DocumentStatus_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 3: Element '{http://example.com/MySchema}Header', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 7: Element '{http://example.com/MySchema}Body', attribute 'Status': [facet 'enumeration'] The value 'Status_value' is not an element of the set {'Completed', 'InProgress', 'Pending', 'Unknown'}.
+      Line 8: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 13: Element '{http://example.com/MySchema}Item', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+      Line 16: Element '{http://example.com/MySchema}SubItem', attribute 'Priority': [facet 'enumeration'] The value 'Priority_value' is not an element of the set {'High', 'Medium', 'Low'}.
+
+================================================================================

@@ -1,0 +1,41 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 10
+✓ Valid:   0 (0.0%)
+✗ Invalid: 10 (100.0%)
+
+【Invalid なXMLファイル (10個)】
+  ✗ generated/pairwise_iso_fixed/pairwise_test_000.xml
+      Line 1082: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_001.xml
+      Line 429: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_002.xml
+      Line 451: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_003.xml
+      Line 988: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_004.xml
+      Line 1020: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_005.xml
+      Line 446: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_006.xml
+      Line 976: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_007.xml
+      Line 695: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_008.xml
+      Line 454: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_009.xml
+      Line 961: Element '{http://www.w3.org/2000/09/xmldsig#}SignatureValue': 'dummySignatureValue' is not a valid value of the atomic type 'xs:base64Binary'.
+
+================================================================================

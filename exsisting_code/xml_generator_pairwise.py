@@ -20,6 +20,7 @@ import argparse
 from lxml import etree
 from optional_extractor import OptionalElementExtractor
 from pairwise_generator import PairwiseCoverageGenerator
+from pairwise_generator_scalable import ScalablePairwiseCoverageGenerator
 from pairwise_xml_builder import PairwiseXMLBuilder
 
 
@@ -107,17 +108,38 @@ def main():
     print("Step 2: ペアワイズカバーリング配列を生成中...")
     optional_paths = [item.path for item in optional_items]
 
-    generator = PairwiseCoverageGenerator(
-        algorithm="greedy",
-        random_seed=args.random_seed
-    )
+    # 大規模スキーマの場合、スケーラブル版を使用
+    LARGE_SCHEMA_THRESHOLD = 500
+    MAX_PARAMETERS_LIMIT = 300  # 大規模スキーマでの上限
 
-    covering_array = generator.generate(
-        optional_paths=optional_paths,
-        strength=2,
-        max_patterns=args.max_patterns,
-        choice_groups=choice_groups
-    )
+    if len(optional_paths) > LARGE_SCHEMA_THRESHOLD:
+        print(f"  大規模スキーマ検出（{len(optional_paths)}個のオプション項目）")
+        print(f"  スケーラブルなアルゴリズムを使用します")
+
+        generator = ScalablePairwiseCoverageGenerator(
+            algorithm="greedy",
+            random_seed=args.random_seed
+        )
+
+        covering_array = generator.generate(
+            optional_paths=optional_paths,
+            strength=2,
+            max_patterns=args.max_patterns,
+            choice_groups=choice_groups,
+            max_parameters=MAX_PARAMETERS_LIMIT
+        )
+    else:
+        generator = PairwiseCoverageGenerator(
+            algorithm="greedy",
+            random_seed=args.random_seed
+        )
+
+        covering_array = generator.generate(
+            optional_paths=optional_paths,
+            strength=2,
+            max_patterns=args.max_patterns,
+            choice_groups=choice_groups
+        )
 
     print(f"  生成されたパターン数: {len(covering_array.patterns)}")
     print(f"  ペアカバレッジ: {covering_array.coverage*100:.2f}%")

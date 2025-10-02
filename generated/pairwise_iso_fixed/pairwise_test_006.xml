@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:Main xmlns:ns0="http://std.iec.ch/iec62474" schemaDatabaseVersion="schemaDatabaseVersion_value" charaLocal="charaLocal_value" declarationComplete="true">
+  <ns0:Include>
+    <ns0:Sectional nameOfSectional="Compliance"/>
+  </ns0:Include>
+  <ns0:BusinessInfo mode="Distribution">
+    <ns0:Request comment="comment_value" date="2024-01-01" docID="docID_value" internalSupplierID="internalSupplierID_value" respondByDate="2024-01-01">
+      <ns0:Contact city="city_value" cityLocal="cityLocal_value" comment="comment_value" commentLocal="commentLocal_value" country="country_value" email="email_value" internalAddress="internalAddress_value" division="division_value" divisionLocal="divisionLocal_value" name="name_value" nameLocal="nameLocal_value" phone="phone_value" postalCode="postalCode_value" stateProvince="stateProvince_value" stateProvinceLocal="stateProvinceLocal_value" street="street_value" streetLocal="streetLocal_value" title="title_value" titleLocal="titleLocal_value"/>
+      <ns0:RequestCompany name="name_value" nameLocal="nameLocal_value"/>
+      <ns0:RequestContent comment="comment_value">
+        <ns0:Include>
+          <ns0:Sectional nameOfSectional="Compliance"/>
+        </ns0:Include>
+        <ns0:DSLforComposition authority="authority_value" identity="identity_value" version="version_value"/>
+        <ns0:DSLforCompliance authority="authority_value" identity="identity_value" version="version_value"/>
+        <ns0:MaterialClassList authority="authority_value" identity="identity_value" version="version_value"/>
+      </ns0:RequestContent>
+    </ns0:Request>
+    <ns0:Response comment="comment_value" date="2024-01-01" docID="docID_value">
+      <ns0:Authorizer city="city_value" cityLocal="cityLocal_value" comment="comment_value" commentLocal="commentLocal_value" country="country_value" email="email_value" internalAddress="internalAddress_value" division="division_value" divisionLocal="divisionLocal_value" name="name_value" nameLocal="nameLocal_value" phone="phone_value" stateProvince="stateProvince_value" stateProvinceLocal="stateProvinceLocal_value" streetLocal="streetLocal_value" title="title_value" titleLocal="titleLocal_value"/>
+      <ns0:Contact city="city_value" cityLocal="cityLocal_value" comment="comment_value" commentLocal="commentLocal_value" country="country_value" email="email_value" internalAddress="internalAddress_value" division="division_value" divisionLocal="divisionLocal_value" name="name_value" nameLocal="nameLocal_value" phone="phone_value" postalCode="postalCode_value" stateProvince="stateProvince_value" stateProvinceLocal="stateProvinceLocal_value" streetLocal="streetLocal_value" title="title_value" titleLocal="titleLocal_value"/>
+      <ns0:SupplyCompany name="name_value" nameLocal="nameLocal_value">
+        <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+      </ns0:SupplyCompany>
+    </ns0:Response>
+    <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+  </ns0:BusinessInfo>
+  <ns0:Product unitType="each" productFamilyName="productFamilyName_value" isArticle="true" comment="comment_value">
+    <ns0:ProductID effectiveDate="2024-01-01" identifier="identifier_value" manufacturingSite="manufacturingSite_value" name="name_value" requesterIdentifier="requesterIdentifier_value" requesterName="requesterName_value" version="version_value">
+      <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+      <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+      <ns0:InstanceID authority="authority_value" identity="identity_value" version="version_value"/>
+      <ns0:ProductCategory>
+        <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+        <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+      </ns0:ProductCategory>
+      <ns0:Identifier>
+        <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+        <ns0:EntryID entryIdentity="entryIdentity_value"/>
+      </ns0:Identifier>
+      <ns0:OtherNames type="brand" otherType="otherType_value" name="name_value"/>
+      <ns0:CountryOfManufacture>
+        <ns0:CountryInformation countryCode="countryCode_value"/>
+      </ns0:CountryOfManufacture>
+    </ns0:ProductID>
+    <ns0:Compliance isSCIPComplete="true">
+      <ns0:DeclarableSubstanceList authority="authority_value" identity="identity_value" version="version_value"/>
+      <ns0:DsDsg name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+        <ns0:DsDsgID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:ComplianceThreshold aboveComplianceThreshold="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+        <ns0:Exemptions>
+          <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+        </ns0:Exemptions>
+        <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+          <ns0:SafeUseID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:SafeUseID>
+        </ns0:SafeUse>
+        <ns0:ProductPartInformation numberOfUnits="1.0">
+          <ns0:Identifier>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:Identifier>
+          <ns0:ProductCategory>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:ProductCategory>
+          <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+            <ns0:SafeUseID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:SafeUseID>
+          </ns0:SafeUse>
+          <ns0:MaterialClassID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:MaterialClassID>
+          <ns0:MaterialProperty>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:MaterialProperty>
+          <ns0:UseDescriptor>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value"/>
+          </ns0:UseDescriptor>
+          <ns0:IntermediateComplexObject name="name_value" numberOfUnits="1.0">
+            <ns0:Identifier>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:Identifier>
+            <ns0:ProductCategory>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:ProductCategory>
+            <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+              <ns0:SafeUseID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:SafeUseID>
+            </ns0:SafeUse>
+            <ns0:CountryOfManufacture>
+              <ns0:CountryInformation countryCode="countryCode_value"/>
+            </ns0:CountryOfManufacture>
+          </ns0:IntermediateComplexObject>
+          <ns0:Attachment fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          <ns0:CountryOfManufacture>
+            <ns0:CountryInformation countryCode="countryCode_value"/>
+          </ns0:CountryOfManufacture>
+        </ns0:ProductPartInformation>
+      </ns0:DsDsg>
+    </ns0:Compliance>
+    <ns0:Composition isSCIPComplete="true" isFMD="true">
+      <ns0:DeclarableSubstanceList authority="authority_value" identity="identity_value" version="version_value"/>
+      <ns0:ProductPart numberOfUnits="1.0" isArticle="true" comment="comment_value">
+        <ns0:ProductID effectiveDate="2024-01-01" identifier="identifier_value" manufacturingSite="manufacturingSite_value" name="name_value" requesterIdentifier="requesterIdentifier_value" requesterName="requesterName_value" version="version_value">
+          <ns0:Mass mass="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:InstanceID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:ProductCategory>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:ProductCategory>
+          <ns0:Identifier>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:Identifier>
+          <ns0:OtherNames type="brand" otherType="otherType_value" name="name_value"/>
+          <ns0:CountryOfManufacture>
+            <ns0:CountryInformation countryCode="countryCode_value"/>
+          </ns0:CountryOfManufacture>
+        </ns0:ProductID>
+        <ns0:ProductPart numberOfUnits="1.0" isArticle="true" comment="comment_value">
+          <ns0:ProductID effectiveDate="2024-01-01" identifier="identifier_value" manufacturingSite="manufacturingSite_value" name="name_value" requesterIdentifier="requesterIdentifier_value" requesterName="requesterName_value" version="version_value">
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:InstanceID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:ProductCategory>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:ProductCategory>
+            <ns0:Identifier>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:Identifier>
+            <ns0:OtherNames type="brand" otherType="otherType_value" name="name_value"/>
+            <ns0:CountryOfManufacture>
+              <ns0:CountryInformation countryCode="countryCode_value"/>
+            </ns0:CountryOfManufacture>
+          </ns0:ProductID>
+          <ns0:ProductPart numberOfUnits="1.0" isArticle="true" comment="comment_value">
+            <ns0:ProductID effectiveDate="2024-01-01" manufacturingSite="manufacturingSite_value" name="name_value" requesterIdentifier="requesterIdentifier_value" requesterName="requesterName_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:InstanceID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:ProductCategory>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:ProductCategory>
+              <ns0:OtherNames type="brand" otherType="otherType_value" name="name_value"/>
+              <ns0:CountryOfManufacture>
+                <ns0:CountryInformation countryCode="countryCode_value"/>
+              </ns0:CountryOfManufacture>
+            </ns0:ProductID>
+            <ns0:Material comment="comment_value" name="name_value" isArticle="true">
+              <ns0:MaterialID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:MaterialID>
+              <ns0:MaterialClassID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:MaterialClassID>
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:Substance name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+                <ns0:SubstanceID>
+                  <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                  <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+                </ns0:SubstanceID>
+                <ns0:DsgID>
+                  <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                  <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+                </ns0:DsgID>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+              </ns0:Substance>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value"/>
+              <ns0:MaterialProperty>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:MaterialProperty>
+              <ns0:UseDescriptor>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:UseDescriptor>
+              <ns0:MaterialCircularity>
+                <ns0:RecycledContentInformation description="description_value">
+                  <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                    <ns0:Mass mass="1.0" unitOfMeasure="mg"/>
+                    <ns0:MassPercent massPercent="1.0"/>
+                    <ns0:Attachment fileName="fileName_value" fileType="fileType_value"/>
+                  </ns0:TotalRecycledContent>
+                  <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                    <ns0:Mass mass="1.0" unitOfMeasure="mg"/>
+                    <ns0:MassPercent massPercent="1.0"/>
+                    <ns0:Attachment fileName="fileName_value" fileType="fileType_value"/>
+                  </ns0:PreConsumerRecycledContent>
+                  <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                    <ns0:Mass mass="1.0" unitOfMeasure="mg"/>
+                    <ns0:MassPercent massPercent="1.0"/>
+                    <ns0:Attachment fileName="fileName_value" fileType="fileType_value"/>
+                  </ns0:PostConsumerRecycledContent>
+                </ns0:RecycledContentInformation>
+                <ns0:RenewableContent description="description_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:RenewableContent>
+                <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:RecyclabilityRate>
+              </ns0:MaterialCircularity>
+            </ns0:Material>
+            <ns0:Substance name="name_value" comment="comment_value">
+              <ns0:SubstanceID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:SubstanceID>
+              <ns0:DsgID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:DsgID>
+              <ns0:Mass mass="1.0" massRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+              <ns0:Exemptions>
+                <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+              </ns0:Exemptions>
+              <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+              <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+                <ns0:SafeUseID>
+                  <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                  <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+                </ns0:SafeUseID>
+              </ns0:SafeUse>
+            </ns0:Substance>
+            <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+              <ns0:SafeUseID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:SafeUseID>
+            </ns0:SafeUse>
+            <ns0:ProductCircularity>
+              <ns0:AverageRecycledContent description="description_value">
+                <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:TotalRecycledContent>
+                <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:PreConsumerRecycledContent>
+                <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" negativeTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" language="language_value"/>
+                </ns0:PostConsumerRecycledContent>
+              </ns0:AverageRecycledContent>
+              <ns0:AverageRenewableContent description="description_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:AverageRenewableContent>
+              <ns0:AverageReusedContent description="description_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:AverageReusedContent>
+              <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:RecyclabilityRate>
+            </ns0:ProductCircularity>
+          </ns0:ProductPart>
+          <ns0:Material comment="comment_value" name="name_value" isArticle="true">
+            <ns0:MaterialID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:MaterialID>
+            <ns0:MaterialClassID>
+              <ns0:EntryID entryIdentity="entryIdentity_value"/>
+            </ns0:MaterialClassID>
+            <ns0:Mass mass="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Substance name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+              <ns0:SubstanceID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:SubstanceID>
+              <ns0:DsgID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:DsgID>
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Exemptions>
+                <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+              </ns0:Exemptions>
+              <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+              <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+                <ns0:SafeUseID>
+                  <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                  <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+                </ns0:SafeUseID>
+              </ns0:SafeUse>
+            </ns0:Substance>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            <ns0:MaterialProperty>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:MaterialProperty>
+            <ns0:UseDescriptor>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:UseDescriptor>
+            <ns0:MaterialCircularity>
+              <ns0:RecycledContentInformation description="description_value">
+                <ns0:TotalRecycledContent description="description_value" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:TotalRecycledContent>
+                <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" positiveTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:PreConsumerRecycledContent>
+                <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                  <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                  <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+                  <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+                </ns0:PostConsumerRecycledContent>
+              </ns0:RecycledContentInformation>
+              <ns0:RenewableContent description="description_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value"/>
+              </ns0:RenewableContent>
+              <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:RecyclabilityRate>
+            </ns0:MaterialCircularity>
+          </ns0:Material>
+          <ns0:Substance descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+            <ns0:SubstanceID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value"/>
+            </ns0:SubstanceID>
+            <ns0:DsgID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:DsgID>
+            <ns0:Mass mass="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Exemptions>
+              <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+            </ns0:Exemptions>
+            <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+          </ns0:Substance>
+          <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+            <ns0:SafeUseID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:SafeUseID>
+          </ns0:SafeUse>
+          <ns0:ProductCircularity>
+            <ns0:AverageRecycledContent description="description_value">
+              <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:TotalRecycledContent>
+              <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:PreConsumerRecycledContent>
+              <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:PostConsumerRecycledContent>
+            </ns0:AverageRecycledContent>
+            <ns0:AverageRenewableContent description="description_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:AverageRenewableContent>
+            <ns0:AverageReusedContent description="description_value">
+              <ns0:Mass mass="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:AverageReusedContent>
+            <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:RecyclabilityRate>
+          </ns0:ProductCircularity>
+        </ns0:ProductPart>
+        <ns0:Material comment="comment_value" name="name_value" isArticle="true">
+          <ns0:MaterialID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:MaterialID>
+          <ns0:MaterialClassID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:MaterialClassID>
+          <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:Substance name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+            <ns0:SubstanceID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:SubstanceID>
+            <ns0:DsgID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:DsgID>
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Exemptions>
+              <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:Exemption description="description_value" identity="identity_value"/>
+            </ns0:Exemptions>
+            <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+            <ns0:SafeUse>
+              <ns0:SafeUseID>
+                <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+                <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+              </ns0:SafeUseID>
+            </ns0:SafeUse>
+          </ns0:Substance>
+          <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          <ns0:MaterialProperty>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:MaterialProperty>
+          <ns0:UseDescriptor>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value"/>
+          </ns0:UseDescriptor>
+          <ns0:MaterialCircularity>
+            <ns0:RecycledContentInformation description="description_value">
+              <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value"/>
+              </ns0:TotalRecycledContent>
+              <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:PreConsumerRecycledContent>
+              <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+                <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+                <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+                <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+              </ns0:PostConsumerRecycledContent>
+            </ns0:RecycledContentInformation>
+            <ns0:RenewableContent description="description_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:RenewableContent>
+            <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" language="language_value"/>
+            </ns0:RecyclabilityRate>
+          </ns0:MaterialCircularity>
+        </ns0:Material>
+        <ns0:Substance name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+          <ns0:SubstanceID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:SubstanceID>
+          <ns0:DsgID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:DsgID>
+          <ns0:Mass mass="1.0" massRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+          <ns0:Exemptions>
+            <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+          </ns0:Exemptions>
+          <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+          <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+            <ns0:SafeUseID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+            </ns0:SafeUseID>
+          </ns0:SafeUse>
+        </ns0:Substance>
+        <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+        <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+          <ns0:SafeUseID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:SafeUseID>
+        </ns0:SafeUse>
+        <ns0:ProductCircularity>
+          <ns0:AverageRecycledContent description="description_value">
+            <ns0:TotalRecycledContent recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:TotalRecycledContent>
+            <ns0:PreConsumerRecycledContent recyclingMethod="mechanical recycling">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PreConsumerRecycledContent>
+            <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PostConsumerRecycledContent>
+          </ns0:AverageRecycledContent>
+          <ns0:AverageRenewableContent description="description_value">
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          </ns0:AverageRenewableContent>
+          <ns0:AverageReusedContent description="description_value">
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" positiveTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report"/>
+          </ns0:AverageReusedContent>
+          <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          </ns0:RecyclabilityRate>
+        </ns0:ProductCircularity>
+      </ns0:ProductPart>
+      <ns0:Material comment="comment_value" name="name_value" isArticle="true">
+        <ns0:MaterialID>
+          <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        </ns0:MaterialID>
+        <ns0:MaterialClassID>
+          <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:EntryID entryIdentity="entryIdentity_value"/>
+        </ns0:MaterialClassID>
+        <ns0:Mass mass="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:Substance descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+          <ns0:SubstanceID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:SubstanceID>
+          <ns0:DsgID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:DsgID>
+          <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:Exemptions>
+            <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+          </ns0:Exemptions>
+          <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+          <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+            <ns0:SafeUseID>
+              <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+              <ns0:EntryID entryIdentity="entryIdentity_value"/>
+            </ns0:SafeUseID>
+          </ns0:SafeUse>
+        </ns0:Substance>
+        <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+        <ns0:MaterialProperty>
+          <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        </ns0:MaterialProperty>
+        <ns0:UseDescriptor>
+          <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        </ns0:UseDescriptor>
+        <ns0:MaterialCircularity>
+          <ns0:RecycledContentInformation>
+            <ns0:TotalRecycledContent recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:TotalRecycledContent>
+            <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PreConsumerRecycledContent>
+            <ns0:PostConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PostConsumerRecycledContent>
+          </ns0:RecycledContentInformation>
+          <ns0:RenewableContent>
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" language="language_value"/>
+          </ns0:RenewableContent>
+          <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+            <ns0:Attachment fileName="fileName_value" fileType="fileType_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          </ns0:RecyclabilityRate>
+        </ns0:MaterialCircularity>
+      </ns0:Material>
+      <ns0:Substance name="name_value" descriptionOfUse="descriptionOfUse_value" comment="comment_value">
+        <ns0:SubstanceID>
+          <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        </ns0:SubstanceID>
+        <ns0:DsgID>
+          <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+        </ns0:DsgID>
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:Exemptions>
+          <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+          <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+        </ns0:Exemptions>
+        <ns0:CompositionThreshold aboveThresholdLevel="true" reportableApplication="reportableApplication_value" reportingThreshold="reportingThreshold_value"/>
+        <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+          <ns0:SafeUseID>
+            <ns0:ListID authority="authority_value" identity="identity_value" version="version_value"/>
+            <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+          </ns0:SafeUseID>
+        </ns0:SafeUse>
+      </ns0:Substance>
+    </ns0:Composition>
+    <ns0:MaterialClassDeclaration>
+      <ns0:MaterialClassList authority="authority_value" identity="identity_value" version="version_value"/>
+      <ns0:MaterialClass comment="comment_value" id="id_value" name="name_value">
+        <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+        <ns0:MaterialCircularity>
+          <ns0:RecycledContentInformation description="description_value">
+            <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report"/>
+            </ns0:TotalRecycledContent>
+            <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PreConsumerRecycledContent>
+            <ns0:PostConsumerRecycledContent recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+              <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+              <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+              <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+            </ns0:PostConsumerRecycledContent>
+          </ns0:RecycledContentInformation>
+          <ns0:RenewableContent description="description_value">
+            <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+          </ns0:RenewableContent>
+          <ns0:RecyclabilityRate description="description_value" calculationMethod="calculationMethod_value">
+            <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0"/>
+            <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value"/>
+          </ns0:RecyclabilityRate>
+        </ns0:MaterialCircularity>
+      </ns0:MaterialClass>
+    </ns0:MaterialClassDeclaration>
+    <ns0:Attachment fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileDescription="Test Report" language="language_value"/>
+    <ns0:Exemptions>
+      <ns0:UniqueID authority="authority_value" identity="identity_value" version="version_value"/>
+      <ns0:Exemption description="description_value" identity="identity_value" regIndex="regIndex_value"/>
+    </ns0:Exemptions>
+    <ns0:SafeUse safeUseInformation="safeUseInformation_value">
+      <ns0:SafeUseID>
+        <ns0:EntryID entryIdentity="entryIdentity_value" entryDescription="entryDescription_value"/>
+      </ns0:SafeUseID>
+    </ns0:SafeUse>
+    <ns0:ProductCircularity>
+      <ns0:AverageRecycledContent description="description_value">
+        <ns0:TotalRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+          <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileDescription="Test Report" language="language_value"/>
+        </ns0:TotalRecycledContent>
+        <ns0:PreConsumerRecycledContent description="description_value" recyclingMethod="mechanical recycling" otherRecyclingMethod="otherRecyclingMethod_value">
+          <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+        </ns0:PreConsumerRecycledContent>
+        <ns0:PostConsumerRecycledContent description="description_value" otherRecyclingMethod="otherRecyclingMethod_value">
+          <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+          <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+          <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+        </ns0:PostConsumerRecycledContent>
+      </ns0:AverageRecycledContent>
+      <ns0:AverageRenewableContent description="description_value">
+        <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" language="language_value"/>
+      </ns0:AverageRenewableContent>
+      <ns0:AverageReusedContent description="description_value">
+        <ns0:Mass mass="1.0" massRangeMin="1.0" massRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0" unitOfMeasure="mg"/>
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value"/>
+      </ns0:AverageReusedContent>
+      <ns0:RecyclabilityRate calculationMethod="calculationMethod_value">
+        <ns0:MassPercent massPercent="1.0" massPercentRangeMin="1.0" massPercentRangeMax="1.0" negativeTolerance="1.0" positiveTolerance="1.0"/>
+        <ns0:Attachment data="U2FtcGxlRGF0YQ==" fileName="fileName_value" fileType="fileType_value" fileURL="fileURL_value" fileZipLocation="fileZipLocation_value" fileDescription="Test Report" otherFileDescription="otherFileDescription_value" language="language_value"/>
+      </ns0:RecyclabilityRate>
+    </ns0:ProductCircularity>
+  </ns0:Product>
+  <ns0:Signature>
+    <ns0:SignedInfo xmlns:ns0="http://www.w3.org/2000/09/xmldsig#">
+      <ns0:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ns0:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <ns0:Reference URI="">
+        <ns0:Transforms>
+          <ns0:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </ns0:Transforms>
+        <ns0:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ns0:DigestValue>U2FtcGxlRGlnZXN0VmFsdWU=</ns0:DigestValue>
+      </ns0:Reference>
+    </ns0:SignedInfo>
+    <ns0:SignatureValue xmlns:ns0="http://www.w3.org/2000/09/xmldsig#">U2FtcGxlU2lnbmF0dXJlVmFsdWU=</ns0:SignatureValue>
+  </ns0:Signature>
+  <ns0:ToolNameVersionID authority="authority_value" identity="identity_value" version="version_value"/>
+</ns0:Main>

@@ -1,0 +1,51 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 10
+✓ Valid:   0 (0.0%)
+✗ Invalid: 10 (100.0%)
+
+【Invalid なXMLファイル (10個)】
+  ✗ generated/pairwise_iso_fixed/pairwise_test_000.xml
+      Line 1071: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 1070: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_001.xml
+      Line 418: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 417: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_002.xml
+      Line 440: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 439: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_003.xml
+      Line 446: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 445: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_004.xml
+      Line 1019: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 1018: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_005.xml
+      Line 976: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 975: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_006.xml
+      Line 426: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 425: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_007.xml
+      Line 438: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 437: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_008.xml
+      Line 434: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 433: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_009.xml
+      Line 693: Element '{http://www.w3.org/2000/09/xmldsig#}SignedInfo': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}CanonicalizationMethod ).
+      Line 692: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignatureValue ).
+
+================================================================================

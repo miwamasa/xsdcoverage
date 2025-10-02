@@ -1,0 +1,31 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 5
+✓ Valid:   0 (0.0%)
+✗ Invalid: 5 (100.0%)
+
+【Invalid なXMLファイル (5個)】
+  ✗ generated/pairwise_iso_fixed/pairwise_test_000.xml
+      Line 1070: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 1070: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_001.xml
+      Line 417: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 417: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_002.xml
+      Line 439: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 439: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_003.xml
+      Line 976: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 976: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_004.xml
+      Line 434: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 434: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+================================================================================

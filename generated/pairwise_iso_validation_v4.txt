@@ -1,0 +1,205 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 5
+✓ Valid:   0 (0.0%)
+✗ Invalid: 5 (100.0%)
+
+【Invalid なXMLファイル (5個)】
+  ✗ generated/pairwise_iso_fixed/pairwise_test_000.xml
+      Line 198: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 201: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 205: Element '{http://std.iec.ch/iec62474}CountryInformation': The attribute 'countryCode' is required but missing.
+      Line 218: Element '{http://std.iec.ch/iec62474}AverageRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}TotalRecycledContent ).
+      Line 219: Element '{http://std.iec.ch/iec62474}AverageRenewableContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 220: Element '{http://std.iec.ch/iec62474}AverageReusedContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 221: Element '{http://std.iec.ch/iec62474}RecyclabilityRate': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}MassPercent ).
+      Line 226: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 229: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 236: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 239: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 242: Element '{http://std.iec.ch/iec62474}RecycledContentInformation': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}TotalRecycledContent ).
+      Line 243: Element '{http://std.iec.ch/iec62474}RenewableContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 244: Element '{http://std.iec.ch/iec62474}RecyclabilityRate': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}MassPercent ).
+      Line 249: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 252: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 257: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'authority' is required but missing.
+      Line 257: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'identity' is required but missing.
+      Line 257: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'version' is required but missing.
+      Line 258: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'description' is required but missing.
+      Line 258: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'identity' is required but missing.
+      Line 266: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 271: Element '{http://std.iec.ch/iec62474}TotalRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 272: Element '{http://std.iec.ch/iec62474}PreConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 273: Element '{http://std.iec.ch/iec62474}PostConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 276: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 276: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 277: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 278: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 278: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 281: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 281: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 282: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 283: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 283: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 286: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 287: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 287: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 304: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 307: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 312: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'authority' is required but missing.
+      Line 312: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'identity' is required but missing.
+      Line 312: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'version' is required but missing.
+      Line 313: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'description' is required but missing.
+      Line 313: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'identity' is required but missing.
+      Line 329: Element '{http://std.iec.ch/iec62474}TotalRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 330: Element '{http://std.iec.ch/iec62474}PreConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 331: Element '{http://std.iec.ch/iec62474}PostConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 334: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 334: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 335: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 336: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 336: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 339: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 340: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 340: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 362: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 376: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 376: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 377: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 378: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 378: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 381: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 381: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 382: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 383: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 383: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 386: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 386: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 387: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 388: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 388: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 436: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 452: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 452: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 453: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 454: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 454: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 457: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 457: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 458: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 459: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 459: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 462: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 462: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 463: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 464: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 464: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 996: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 996: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_001.xml
+      Line 417: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 417: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_002.xml
+      Line 439: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 439: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_003.xml
+      Line 445: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 445: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+  ✗ generated/pairwise_iso_fixed/pairwise_test_004.xml
+      Line 193: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 197: Element '{http://std.iec.ch/iec62474}CountryInformation': The attribute 'countryCode' is required but missing.
+      Line 208: Element '{http://std.iec.ch/iec62474}AverageRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}TotalRecycledContent ).
+      Line 209: Element '{http://std.iec.ch/iec62474}AverageRenewableContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 210: Element '{http://std.iec.ch/iec62474}AverageReusedContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 211: Element '{http://std.iec.ch/iec62474}RecyclabilityRate': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}MassPercent ).
+      Line 216: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 219: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 224: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 227: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 230: Element '{http://std.iec.ch/iec62474}RecycledContentInformation': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}TotalRecycledContent ).
+      Line 231: Element '{http://std.iec.ch/iec62474}RenewableContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 232: Element '{http://std.iec.ch/iec62474}RecyclabilityRate': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}MassPercent ).
+      Line 237: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 240: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 245: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'authority' is required but missing.
+      Line 245: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'identity' is required but missing.
+      Line 245: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'version' is required but missing.
+      Line 246: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'description' is required but missing.
+      Line 246: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'identity' is required but missing.
+      Line 254: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 259: Element '{http://std.iec.ch/iec62474}TotalRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 260: Element '{http://std.iec.ch/iec62474}PreConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 261: Element '{http://std.iec.ch/iec62474}PostConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 264: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 264: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 265: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 266: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 266: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 269: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 269: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 270: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 271: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 271: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 274: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 275: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 275: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 291: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 294: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 299: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'authority' is required but missing.
+      Line 299: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'identity' is required but missing.
+      Line 299: Element '{http://std.iec.ch/iec62474}UniqueID': The attribute 'version' is required but missing.
+      Line 300: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'description' is required but missing.
+      Line 300: Element '{http://std.iec.ch/iec62474}Exemption': The attribute 'identity' is required but missing.
+      Line 316: Element '{http://std.iec.ch/iec62474}TotalRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 317: Element '{http://std.iec.ch/iec62474}PreConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 318: Element '{http://std.iec.ch/iec62474}PostConsumerRecycledContent': Missing child element(s). Expected is ( {http://std.iec.ch/iec62474}Mass ).
+      Line 321: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 321: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 322: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 323: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 323: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 326: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 327: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 327: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 345: Element '{http://std.iec.ch/iec62474}EntryID': The attribute 'entryIdentity' is required but missing.
+      Line 359: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 359: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 360: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 361: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 361: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 364: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 364: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 365: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 366: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 366: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 369: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 369: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 370: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 371: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 371: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 420: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 420: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 421: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 422: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 422: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 425: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 425: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 426: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 427: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 427: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 430: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'mass' is required but missing.
+      Line 430: Element '{http://std.iec.ch/iec62474}Mass': The attribute 'unitOfMeasure' is required but missing.
+      Line 431: Element '{http://std.iec.ch/iec62474}MassPercent': The attribute 'massPercent' is required but missing.
+      Line 432: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileName' is required but missing.
+      Line 432: Element '{http://std.iec.ch/iec62474}Attachment': The attribute 'fileType' is required but missing.
+      Line 944: Element '{http://std.iec.ch/iec62474}Signature': Character content other than whitespace is not allowed because the content type is 'element-only'.
+      Line 944: Element '{http://std.iec.ch/iec62474}Signature': Missing child element(s). Expected is ( {http://www.w3.org/2000/09/xmldsig#}SignedInfo ).
+
+================================================================================

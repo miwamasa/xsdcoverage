@@ -4,15 +4,15 @@ XSDカバレッジレポート（階層構造考慮版）
 
 【要素カバレッジ】
   XSDで定義された要素パス数: 116
-  ├─ XMLで使用されている数: 92
-  └─ XMLで未使用の数: 24
+  ├─ XMLで使用されている数: 94
+  └─ XMLで未使用の数: 22
   
-  XMLに存在する要素パス総数: 92
-  ├─ XSDで定義済み: 92
+  XMLに存在する要素パス総数: 94
+  ├─ XSDで定義済み: 94
   └─ XSDで未定義: 0
   
-  カバレッジ率: 79.31%
-  （定義された116個のうち92個が使用されている）
+  カバレッジ率: 81.03%
+  （定義された116個のうち94個が使用されている）
 
 【属性カバレッジ】
   XSDで定義された属性パス数: 120
@@ -28,15 +28,15 @@ XSDカバレッジレポート（階層構造考慮版）
 
 【総合カバレッジ】
   XSDで定義された総パス数: 236
-  ├─ XMLで使用されている数: 198
-  └─ XMLで未使用の数: 38
+  ├─ XMLで使用されている数: 200
+  └─ XMLで未使用の数: 36
   
-  XMLに存在する総パス数: 198
-  ├─ XSDで定義済み: 198
+  XMLに存在する総パス数: 200
+  ├─ XSDで定義済み: 200
   └─ XSDで未定義: 0
   
-  カバレッジ率: 83.90%
-  （定義された236個のうち198個が使用されている）
+  カバレッジ率: 84.75%
+  （定義された236個のうち200個が使用されている）
 
 【未使用の要素パス】
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
@@ -45,7 +45,6 @@ XSDカバレッジレポート（階層構造考慮版）
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
-  - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
   - /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
@@ -57,7 +56,6 @@ XSDカバレッジレポート（階層構造考慮版）
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Note
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details/Tag
-  - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Description
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
@@ -81,7 +79,7 @@ XSDカバレッジレポート（階層構造考慮版）
   - /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem@Status
 
 【使用されている要素パス一覧】
-  総数: 92個
+  総数: 94個
 
   ✓ /RootDocument
   ✓ /RootDocument/Body
@@ -122,6 +120,7 @@ XSDカバレッジレポート（階層構造考慮版）
   ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Details
   ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Category/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   ✓ /RootDocument/Body/Category/Name
   ✓ /RootDocument/Body/Item
   ✓ /RootDocument/Body/Item/Description
@@ -164,6 +163,7 @@ XSDカバレッジレポート（階層構造考慮版）
   ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Details
   ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem
+  ✓ /RootDocument/Body/Item/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/SubItem/Name
   ✓ /RootDocument/Footer
   ✓ /RootDocument/Footer/Summary
   ✓ /RootDocument/Footer/Summary/Description

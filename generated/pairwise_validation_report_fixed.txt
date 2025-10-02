@@ -1,0 +1,35 @@
+================================================================================
+XMLバリデーション結果レポート
+================================================================================
+
+【サマリー】
+総XMLファイル数: 23
+✓ Valid:   23 (100.0%)
+✗ Invalid: 0 (0.0%)
+
+【Valid なXMLファイル (23個)】
+  ✓ generated/pairwise_sample_fixed/pairwise_test_000.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_001.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_002.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_003.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_004.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_005.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_006.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_007.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_008.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_009.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_010.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_011.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_012.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_013.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_014.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_015.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_016.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_017.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_018.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_019.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_020.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_021.xml
+  ✓ generated/pairwise_sample_fixed/pairwise_test_022.xml
+
+================================================================================

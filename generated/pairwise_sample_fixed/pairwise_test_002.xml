@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:RootDocument xmlns:ns0="http://example.com/MySchema" DocumentStatus="Completed">
+  <ns0:Header DocumentID="DocumentID_value" Status="Completed">
+    <ns0:Name>Name_value</ns0:Name>
+  </ns0:Header>
+  <ns0:Body Status="Completed"/>
+  <ns0:Footer>
+    <ns0:Timestamp>2024-01-01T00:00:00Z</ns0:Timestamp>
+  </ns0:Footer>
+</ns0:RootDocument>

@@ -60,6 +60,12 @@ def main():
         default=42,
         help='乱数シード（デフォルト: 42）'
     )
+    parser.add_argument(
+        '--max-parameters',
+        type=int,
+        default=300,
+        help='大規模スキーマ時のオプション項目上限数（デフォルト: 300）'
+    )
 
     args = parser.parse_args()
 
@@ -81,6 +87,7 @@ def main():
     print(f"出力ディレクトリ: {args.output}")
     print(f"最大深度: {args.max_depth}")
     print(f"最大パターン数: {args.max_patterns}")
+    print(f"オプション項目上限: {args.max_parameters}")
     print()
 
     # 出力ディレクトリの作成
@@ -110,7 +117,6 @@ def main():
 
     # 大規模スキーマの場合、スケーラブル版を使用
     LARGE_SCHEMA_THRESHOLD = 500
-    MAX_PARAMETERS_LIMIT = 300  # 大規模スキーマでの上限
 
     if len(optional_paths) > LARGE_SCHEMA_THRESHOLD:
         print(f"  大規模スキーマ検出（{len(optional_paths)}個のオプション項目）")
@@ -126,7 +132,7 @@ def main():
             strength=2,
             max_patterns=args.max_patterns,
             choice_groups=choice_groups,
-            max_parameters=MAX_PARAMETERS_LIMIT
+            max_parameters=args.max_parameters
         )
     else:
         generator = PairwiseCoverageGenerator(

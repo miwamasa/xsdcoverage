@@ -37,7 +37,7 @@ XSD Schema Coverage Analyzer
   - 合計: 120個
 
 ■ 再帰深度の影響
-  - max_recursion_depth パラメータで制御（デフォルト5、通常10）
+  - max_recursion_depth パラメータで制御（デフォルト15）
   - ItemType → SubItem(ItemType) → SubItem(ItemType) → ... と展開
   - 深度が大きいほど、パス数が指数関数的に増加
 
@@ -89,7 +89,7 @@ class SchemaAnalyzer:
         import os
         self.base_path = os.path.dirname(os.path.abspath(xsd_path))
         
-    def analyze(self, max_recursion_depth: int = 5):
+    def analyze(self, max_recursion_depth: int = 15):
         """スキーマを解析して定義されたパスを抽出
 
         【要素パスカウントの開始点】
@@ -97,7 +97,7 @@ class SchemaAnalyzer:
 
         Args:
             max_recursion_depth: 再帰的な要素（例：SubItemがItemType型）を展開する最大深度
-                               デフォルトは5ですが、CLIでは通常10が指定されます
+                               デフォルトは15です。深いネスト構造のXMLに対応するため増加されました
                                この値が大きいほど、再帰構造のパス数が増加します
 
         処理の流れ:
@@ -552,36 +552,86 @@ class CoverageReporter:
         # 定義されていないが使用されている要素（エラー検出）
         undefined_elements = self.used_elements - self.defined_elements
         if undefined_elements:
-            report.append("【警告: XSDで定義されていない要素パス】")
-            report.append(f"  件数: {len(undefined_elements)}個")
-            report.append("")
-            
-            # 最初の50個のみ表示
-            max_display = 50
-            for i, elem in enumerate(sorted(undefined_elements), 1):
-                if i <= max_display:
-                    report.append(f"  - {elem}")
-                else:
-                    report.append(f"  ... 他 {len(undefined_elements) - max_display}個")
-                    break
-            report.append("")
-        
+            # 外部名前空間の要素を検出（XML Digital Signatureなど）
+            external_ns_elements = {e for e in undefined_elements
+                                   if '/Signature/' in e}  # XML Digital Signature (ds:)
+            truly_undefined_elements = undefined_elements - external_ns_elements
+
+            # 外部スキーマで定義されている要素
+            if external_ns_elements:
+                report.append("【情報: 外部スキーマで定義されている要素パス】")
+                report.append(f"  件数: {len(external_ns_elements)}個")
+                report.append("  （これらはXML Digital Signatureなどの外部スキーマ（xsd:import）で定義されています）")
+                report.append("")
+
+                # 最初の50個のみ表示
+                max_display = 50
+                for i, elem in enumerate(sorted(external_ns_elements), 1):
+                    if i <= max_display:
+                        report.append(f"  ℹ️  {elem}")
+                    else:
+                        report.append(f"  ... 他 {len(external_ns_elements) - max_display}個")
+                        break
+                report.append("")
+
+            # 本当に未定義の要素（エラー）
+            if truly_undefined_elements:
+                report.append("【警告: XSDで定義されていない要素パス】")
+                report.append(f"  件数: {len(truly_undefined_elements)}個")
+                report.append("  （これらはXSDにも外部スキーマにも定義されていません）")
+                report.append("")
+
+                # 最初の50個のみ表示
+                max_display = 50
+                for i, elem in enumerate(sorted(truly_undefined_elements), 1):
+                    if i <= max_display:
+                        report.append(f"  ⚠️  {elem}")
+                    else:
+                        report.append(f"  ... 他 {len(truly_undefined_elements) - max_display}個")
+                        break
+                report.append("")
+
         # 定義されていないが使用されている属性（エラー検出）
         undefined_attributes = self.used_attributes - self.defined_attributes
         if undefined_attributes:
-            report.append("【警告: XSDで定義されていない属性パス】")
-            report.append(f"  件数: {len(undefined_attributes)}個")
-            report.append("")
-            
-            # 最初の50個のみ表示
-            max_display = 50
-            for i, attr in enumerate(sorted(undefined_attributes), 1):
-                if i <= max_display:
-                    report.append(f"  - {attr}")
-                else:
-                    report.append(f"  ... 他 {len(undefined_attributes) - max_display}個")
-                    break
-            report.append("")
+            # 外部名前空間の属性を検出（XML Digital Signatureなど）
+            external_ns_attributes = {a for a in undefined_attributes
+                                     if '/Signature/' in a}  # XML Digital Signature (ds:)
+            truly_undefined_attributes = undefined_attributes - external_ns_attributes
+
+            # 外部スキーマで定義されている属性
+            if external_ns_attributes:
+                report.append("【情報: 外部スキーマで定義されている属性パス】")
+                report.append(f"  件数: {len(external_ns_attributes)}個")
+                report.append("  （これらはXML Digital Signatureなどの外部スキーマ（xsd:import）で定義されています）")
+                report.append("")
+
+                # 最初の50個のみ表示
+                max_display = 50
+                for i, attr in enumerate(sorted(external_ns_attributes), 1):
+                    if i <= max_display:
+                        report.append(f"  ℹ️  {attr}")
+                    else:
+                        report.append(f"  ... 他 {len(external_ns_attributes) - max_display}個")
+                        break
+                report.append("")
+
+            # 本当に未定義の属性（エラー）
+            if truly_undefined_attributes:
+                report.append("【警告: XSDで定義されていない属性パス】")
+                report.append(f"  件数: {len(truly_undefined_attributes)}個")
+                report.append("  （これらはXSDにも外部スキーマにも定義されていません）")
+                report.append("")
+
+                # 最初の50個のみ表示
+                max_display = 50
+                for i, attr in enumerate(sorted(truly_undefined_attributes), 1):
+                    if i <= max_display:
+                        report.append(f"  ⚠️  {attr}")
+                    else:
+                        report.append(f"  ... 他 {len(truly_undefined_attributes) - max_display}個")
+                        break
+                report.append("")
         
         # 使用されている要素の一覧（最初の100個のみ）
         report.append("【使用されている要素パス一覧】")
@@ -643,7 +693,7 @@ def main():
     parser.add_argument('xsd_file', help='XSDスキーマファイル')
     parser.add_argument('xml_files', nargs='+', help='XMLファイル（複数指定可、ワイルドカード可）')
     parser.add_argument('--debug', action='store_true', help='デバッグ情報を表示')
-    parser.add_argument('--max-depth', type=int, default=10, help='最大再帰深度（デフォルト: 10）')
+    parser.add_argument('--max-depth', type=int, default=15, help='最大再帰深度（デフォルト: 15）')
     
     args = parser.parse_args()
     

@@ -1,0 +1,47 @@
+● 生成ログの解説
+
+  ① 上位300個に制限とは何か？
+
+  目的：大規模スキーマのスケーラビリティ対策です。
+
+  詳細：
+  - ISO IEC62474スキーマには1781個のオプション項目（オプション要素393個 + オプション属性1388個）が存在
+  - すべてをペアワイズ生成に使うと計算量が膨大になる：
+    - 1781個 → 全ペア数 = C(1781,2) × 4 = 約634万ペア
+  - そこで300個に制限することで計算を実用的な範囲に抑える：
+    - 300個 → 全ペア数 = C(300,2) × 4 = 179,400ペア
+
+  選択基準（pairwise_generator_scalable.py:91-93）：
+  # 優先度情報がないので、ランダムサンプリング
+  random.shuffle(optional_paths)
+  optional_paths = optional_paths[:max_parameters]
+
+  現在はランダムに300個を選択しています。コメントにもある通り、本来は優先度情報（例：よく使われる要素を優先）を使う
+  べきですが、現時点では未実装です。
+
+  ② 全ペア数179400の導出根拠
+
+  計算式（pairwise_generator_scalable.py:236-253）：
+
+  def _count_total_pairs(paths, choice_groups):
+      count = 0
+      for path1, path2 in combinations(paths, 2):  # C(300, 2) = 44,850
+          if are_in_same_choice_group(path1, path2):
+              count += 3  # (True,True)を除く3通り
+          else:
+              count += 4  # すべての組み合わせ4通り
+      return count
+
+  内訳：
+  1. パラメータペア数：C(300, 2) = 300 × 299 / 2 = 44,850ペア
+  2. 各ペアの値の組み合わせ（choice制約がない場合）：
+    - (True, True)
+    - (True, False)
+    - (False, True)
+    - (False, False)
+
+  = 4通り
+  3. 全ペア数 = 44,850 × 4 = 179,400
+
+  choice制約がある場合：同じchoice group内の2つのパスは同時にTrueにできないため、(True,
+  True)を除いた3通りになります。

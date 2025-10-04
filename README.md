@@ -20,6 +20,7 @@ XSDスキーマのカバレッジを測定し、高カバレッジのXMLファ�
 - **要素パスと属性パスの個別測定**: それぞれ独立してカバレッジを計算
 - **再帰構造のサポート**: `max-depth`パラメータで制御可能
 - **詳細なレポート出力**: 未使用パスや未定義パスを明確に表示
+- **外部スキーマ対応**: xsd:importによる外部スキーマの要素を適切に分類
 
 ### XML生成の特徴
 
@@ -128,6 +129,25 @@ XSDカバレッジレポート（階層構造考慮版）
   カバレッジ率: 100.00% (236/236)
 ```
 
+#### 外部スキーマについて
+
+XSDが `<xsd:import>` で外部スキーマ（例: XML Digital Signature）を参照している場合、レポートには以下のように表示されます：
+
+```
+【情報: 外部スキーマで定義されている要素パス】
+  件数: 9個
+  （これらはXML Digital Signatureなどの外部スキーマ（xsd:import）で定義されています）
+
+  ℹ️  /Main/Signature/SignatureValue
+  ℹ️  /Main/Signature/SignedInfo
+  ...
+```
+
+**重要**:
+- 外部スキーマの要素は「未定義」ではなく「外部で定義」として分類されます
+- XMLバリデーターは外部スキーマを自動的に読み込むため、これらの要素を含むXMLも100% validです
+- カバレッジ測定では、メインのXSDファイルのみを解析するため、外部スキーマのパスはカウントされません
+
 ### 2. 貪欲法XML生成
 
 Set-Cover問題として高カバレッジXMLを生成します。
@@ -222,6 +242,7 @@ python3 exsisting_code/xml_generator_pairwise.py <XSDファイル> -o <出力デ
 - `-o, --output DIR`: 出力ディレクトリ（必須）
 - `--max-depth N`: XSD解析の最大深度（デフォルト: 10）
 - `--max-patterns N`: 最大パターン数（デフォルト: 50）
+- `--max-parameters N`: 大規模スキーマ時のオプション項目上限数（デフォルト: 300）
 - `--namespace PREFIX=URI`: 名前空間の追加
 - `--random-seed N`: 乱数シード（デフォルト: 42）
 
@@ -332,6 +353,12 @@ XMLバリデーション結果レポート
 2. 再帰構造は`max-depth`まで展開
 3. XMLファイルを解析し、実際に使用されているパスを収集
 4. 定義済みパスと使用済みパスを比較してカバレッジを計算
+5. 外部スキーマ（xsd:import）の要素は「外部で定義」として分類
+
+**外部スキーマの扱い**:
+- メインのXSDファイルのみを解析（xsd:importされた外部スキーマは解析しない）
+- 外部スキーマの要素（例: XML Digital Signature）は「情報」として報告
+- XMLバリデーションには影響なし（バリデーターが外部スキーマを自動読込）
 
 詳細は `exsisting_code/COUNTING_METHODOLOGY.md` を参照してください。
 
@@ -453,6 +480,30 @@ XSDで名前空間が定義されている場合、`--namespace`オプション�
 --namespace "http://example.com/MySchema"
 ```
 
+### 「XSDで未定義」のパスが報告される
+
+カバレッジレポートで「外部スキーマで定義されている要素パス」が表示される場合：
+
+**原因**: XSDが `<xsd:import>` で外部スキーマ（例: XML Digital Signature）を参照しています
+
+**これは問題ではありません**:
+- XMLバリデーターは外部スキーマを自動的に読み込むため、XMLは100% valid
+- カバレッジ測定ツールはメインのXSDのみを解析（外部スキーマは未サポート）
+- 外部スキーマの要素は ℹ️「情報」として表示され、⚠️「警告」ではありません
+
+**例**:
+```
+【情報: 外部スキーマで定義されている要素パス】
+  件数: 9個
+  （これらはXML Digital Signatureなどの外部スキーマ（xsd:import）で定義されています）
+
+  ℹ️  /Main/Signature/SignatureValue
+  ℹ️  /Main/Signature/SignedInfo
+  ...
+```
+
+本当に未定義のパスがある場合は、⚠️「警告」として別途表示されます。
+
 ## 技術スタック
 
 - **Python**: 3.8+
@@ -463,6 +514,7 @@ XSDで名前空間が定義されている場合、`--namespace`オプション�
 
 - `exsisting_code/COUNTING_METHODOLOGY.md` - カバレッジ計測方法の詳細
 - `spec/xml_generation.md` - XML生成アルゴリズムの仕様
+- `spec/pairwise_algorithm.md` - ペアワイズXML生成アルゴリズムの詳細解説
 - `generated/COMPARISON_REPORT.md` - 貪欲法と既存XMLの比較
 - `generated/SMT_COMPARISON_REPORT.md` - SMTソルバーと貪欲法の比較
 
